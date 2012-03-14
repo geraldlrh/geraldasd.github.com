@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link href="style.css" type="text/css" rel="stylesheet" />
+	<title>TIMESPOON</title>
+</head>
+<body>
+
+<input type="number">
+<form>
+  <input name="n" type="range">
+  <input type="submit" value="Go">
+</form>
+<form>
+  <input name="t" type="time">
+  <input type="submit" value="Go">
+</form>
+	    <div class="span-20">
+        <button>Button</button>
+        <p>Button</p>
+        <button class="native">Button</button>
+    </div>
+
+	<div>text shadow</div>
+	<canvas id="a" width="300" height="225"></canvas>
+	<video src="pre6.webm" width="320" height="240" controls></video>
+	<form>
+  <input name="q" placeholder="Search Bookmarks and History">
+  <input type="submit" value="Search">
+</form>
+</body>
+</html>
+<style type="text/css">
+  body { padding-top: 40px; }
+    button {
+        font-size: 48px;
+        margin: 0 2px;
+        vertical-align: top;
+    }
+    button.native {
+        -moz-appearance: none;
+        -webkit-appearance: none;
+    }
+    p {
+    	display: inline-block;
+        -moz-appearance: button;
+        -webkit-appearance: button;
+        font-size: 48px;
+        line-height: 60px;
+        margin-bottom: 0;
+        padding: 0 6px;
+        text-align: center;
+    }
+div {
+	width:80%;
+	margin:0 auto;
+	font-size:10em;
+	box-shadow: -3px 0px 15px #999, 10px -0px 15px #999;
+	}
+</style>
+<script type="text/javascript" charset="utf-8">
+window.onload = function() {
+var d_canvas = document.getElementById("a");
+var context = d_canvas.getContext("2d");
+
+var my_gradient = context.createLinearGradient(0, 0, 0, 225);
+my_gradient.addColorStop(0, "red");
+my_gradient.addColorStop(0.5, "yellow");
+my_gradient.addColorStop(1, "green");
+context.fillStyle = my_gradient;
+context.fillRect(0, 0, 300, 225);
+}
