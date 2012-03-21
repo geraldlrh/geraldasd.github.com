@@ -1,0 +1,263 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Timespoon</title>
+    <meta name="description" content="">
+    <meta name="author" content="timespoon">
+
+    <!-- Le styles（后期优化成min） -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/home.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Felipa' rel='stylesheet' type='text/css'>
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons (补上小图标)-->
+    <link rel="shortcut icon" href="img/index/favicon.ico">
+  </head>
+
+  <body>
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="index.html"><img src="img/index/logo.png" alt="logo" title="logo" /></a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li class="active"><a href="#">首页</a></li>
+              <li><a href="#">团队</a></li>
+              <li><a href="#">知识</a></li>
+              <li><a href="#">其他</a></li>
+            </ul>
+            <ul class="nav pull-right" >
+              <li class="dropdown">
+                <a href="#"
+                   class="dropdown-toggle"
+                   data-toggle="dropdown">
+                   北上的风
+                  <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">修改资料</a></li>
+                  <li><a href="#">修改密码</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#"><i class="icon-off"></i> 退出</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div><!--/.nav -->
+
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span3">
+          <div class="well sidebar-nav">
+            <ul class="nav nav-list">
+              <li class="active" id="homeLink">
+                <a href="#">
+                  <span class="sidebarIcon"></span>
+                  <span class="sidebarText">首页</span>
+                </a>
+              </li>
+              <li id="newsLink">
+                <a href="#">
+                  <span class="sidebarIcon"></span>
+                  <span class="sidebarText">新鲜事</span>
+                </a>
+              </li>
+              <li id="scheduleLink">
+                <a href="#">
+                  <span class="sidebarIcon"></span>
+                  <span class="sidebarText">日程表</span>
+                </a>
+              </li>
+            </ul>
+          </div><!--/.well -->
+        </div><!--/span-->
+        <div class="span9">
+          <div id="content">
+            <section id="news">
+              <header id="1">
+                <span class="icon"></span>
+                <a href="#">MORE</a>
+              </header>
+              <div>news body</div>
+            </section><!--news -->
+
+            <section id="schedule">
+              <header id="2">
+                <span class="icon"></span>
+                <span id="search">
+                  <form>
+                    <input name="q" placeholder="Enter your search key" id="searchText">
+                    <a href="#"><span class="icon"></span></a>
+                    <input type="submit" value="Go" class="hidden">
+                  </form>
+                </span>
+              </header>
+
+              <table border = "1">
+                <tr id="change">
+                  <td><a href="?date=2012-01-31"><span class="icon pre"></span></a></td>
+                  <td colspan="5"><span class="num">2012</span>年<span class="num">2</span>月</td>
+                  <td><a href="?date=2012-03-01"><span class="icon next"></span></a></td>
+                </tr>
+                <tr class="dateHeader"><th>日</th><th>一</th><th>二</th><th>三</th><th>四</th><th>五</th><th>六</th></tr>
+                <tr class="number"><td></td> <td> </td> <td></td>  <td>1</td>
+                  <td><span class="badge">2</span><span class="hidden"><a>more</a></span></td>
+                  <td>3</td>  <td>4</td>
+                </tr>
+                <tr class="dateBody"><td></td>  <td></td>  <td></td>  <td></td>
+                  <td><input type="hidden" name="date" value="2"/>
+                    <ul>
+                      <li>9:00吃早餐</li>
+                      <li>12点午饭啦拉了拉了拉了拉了拉了拉啦啦啦啦啦啦啦啦拉了拉了</li>
+                      <li>1点午睡</li>
+                      <li>3点上课</li>
+                      <li>5点晚饭</li>
+                    </ul>
+                  </td>   <td></td>    <td></td>
+                </tr>
+                <tr class="number"><td> 5  <td> 6  <td> 7
+                  <td><span class="badge">8</span><span class="hidden"><a>more</a></span></td><td> 9  <td> 10  <td> 11
+                </tr>
+                <tr class="dateBody"><td>   <td>   <td>
+                  <td><input type="hidden" name="date" value="8"/>
+                    <ul>
+                      <li>8号看电影 </li>
+                    </ul>
+                  </td>  <td>   <td>   <td>
+                </tr>
+                <tr class="number"><td> 12  <td> 13  <td> 14  <td> 15  <td> 16  <td> 17  <td> 18  </tr>
+                <tr class="dateBody"><td>  <td>  <td> <td> <td>  <td>  <td>  </tr>
+                <tr class="number"><td> 19  <td> 20  <td> 21
+                  <td class="focusHeader"><span class="badge">22</span><span class="hidden"><a>more</a></span></td><td> 23 <td> 24  <td> 25
+                </tr>
+                <tr class="dateBody"><td>  <td>  <td>
+                  <td class="focusBody"><input type="hidden" name="date" value="22"/>
+                    <ul>
+                      <li>假设为今天 </li>
+                    </ul>
+                  </td> <td>  <td>   <td>
+                </tr>
+                <tr class="number"><td> 26  <td> 27  <td> 28  <td> 29  <td> <td> <td> </tr>
+                <tr class="dateBody"><td>   <td>   <td>  <td>  <td> <td> <td> </tr>
+              </table>
+            </section><!-- schedule -->
+
+            <section id="scheduleEdit" class="MYHIDE">
+              <header id="3">
+                <i class="icon-list"></i><span class="text">2月2日的日程安排</span>
+              </header>
+              <ul>
+                <li>
+                  <span class="startTime">01:00</span><span class="symbol"> - </span><span class="endTime">09:30</span>
+                  <span class="task">吃早餐</span>
+                  <span class="editButton hidden"><a href="#" title="编辑"><span class="icon"></span></a></span>
+                  <span class="deleteButton hidden"><a href="#" title="删除"><span class="icon"></span></a></span>
+                </li>
+                <li>
+                  <span class="startTime">12:00</span><span class="symbol"> - </span><span class="endTime">12:30</span>
+                  <span class="task">午饭啦拉了拉了拉了拉了拉了拉拉了拉了拉了拉了拉了拉啦啦啦啦啦啦啦啦拉了拉了啦啦啦啦啦啦啦啦拉了拉了</span>
+                  <span class="editButton hidden"><a href="#" title="编辑"><span class="icon"></span></a></span>
+                  <span class="deleteButton hidden"><a href="#" title="删除"><span class="icon"></span></a></span>
+                </li>
+                <li>
+                  <span class="startTime">09:00</span><span class="symbol"> - </span><span class="endTime">09:30</span>
+                  <span class="task">吃早餐</span>
+                  <span class="editButton hidden"><a href="#" title="编辑"><span class="icon"></span></a></span>
+                  <span class="deleteButton hidden"><a href="#" title="删除"><span class="icon"></span></a></span>
+                </li>
+                <li>
+                  <span class="startTime">09:00</span><span class="symbol"> - </span><span class="endTime">09:30</span>
+                  <span class="task">吃早餐</span>
+                  <span class="editButton hidden"><a href="#" title="编辑"><span class="icon"></span></a></span>
+                  <span class="deleteButton hidden"><a href="#" title="删除"><span class="icon"></span></a></span>
+                </li>
+                <li>
+                  <span class="startTime">09:00</span><span class="symbol"> - </span><span class="endTime">09:30</span>
+                  <span class="task">吃早餐</span>
+                  <span class="editButton hidden"><a href="#" title="编辑"><span class="icon"></span></a></span>
+                  <span class="deleteButton hidden"><a href="#" title="删除"><span class="icon"></span></a></span>
+                </li>
+                <li style="display: none;" id="addBody">
+                  <span class="startTime">
+                    <select>
+                      <option value="00:30">00:30</option>
+                      <option value="01:00">01:00</option>
+                      <option>01:30</option>
+                    </select>
+                  </span>
+                  <span class="symbol"> - </span>
+                  <span class="endTime">
+                    <select>
+                      <option value="00:30">00:30</option>
+                      <option>01:00</option>
+                      <option>01:30</option>
+                    </select>
+                  </span>
+                  <span class="task"><textarea rows="3" style="width: 520px;"></textarea></span>
+                  <div class="button">
+                    <span id="saveButton">
+                      <a class="btn btn-primary" href="#3"><i class="icon-ok icon-white"></i> 确定</a>
+                    </span>
+                    <span id="cancelButton">
+                      <a class="btn btn-primary" href="#3"><i class="icon-remove icon-white"></i> 取消</a>
+                    </span>
+                  </div>
+                </li>
+              </ul>
+              <div class="button">
+                <span id="addButton">
+                  <a class="btn btn-primary" href="#3"><i class="icon-plus icon-white"></i> 添加</a>
+                </span>
+                <span id="returnButton">
+                  <a class="btn btn-primary" href="#2"><i class="icon-share-alt icon-white"></i> 返回</a>
+                </span>
+              </div>
+            </section><!-- scheduleEdit -->
+          </div><!--content-->
+        </div><!--/span9-->
+      </div><!--/row-->
+
+      <hr>
+      <footer>
+          <p>&copy; TIMESPOON 2012</p>
+      </footer>
+
+    </div><!--/.fluid-container-->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap-transition.js"></script>
+    <script src="js/bootstrap-alert.js"></script>
+    <script src="js/bootstrap-modal.js"></script>
+    <script src="js/bootstrap-dropdown.js"></script>
+    <script src="js/bootstrap-scrollspy.js"></script>
+    <script src="js/bootstrap-tab.js"></script>
+    <script src="js/bootstrap-tooltip.js"></script>
+    <script src="js/bootstrap-popover.js"></script>
+    <script src="js/bootstrap-button.js"></script>
+    <script src="js/bootstrap-collapse.js"></script>
+    <script src="js/bootstrap-carousel.js"></script>
+    <script src="js/bootstrap-typeahead.js"></script>
+    <script src="js/home.js"></script>
+
+  </body>
+</html>

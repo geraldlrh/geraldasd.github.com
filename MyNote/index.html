@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>MyNote's demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a demo of MyNote.">
+    <meta name="author" content="gerald">
+
+    <!-- Le styles -->
+    <link href="http://twitter.github.com/bootstrap/assets/css/bootstrap.css" rel="stylesheet">
+    <link href="http://twitter.github.com/bootstrap/assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <style type="text/css">
+      section {
+        margin: 20px;
+      }
+    </style>
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+  </head>
+
+  <body>
+     <!-- Carousel
+    ================================================== -->
+    <section id="carousel">
+      <div class="row">
+        <div class="span3 columns">
+          <h3>About</h3>
+          <p>Here is a demo page of MyNote.</p>
+          <a href="doc/user_manual.pdf" target="_blank" class="btn">Download the user manual</a>
+        </div>
+        <div class="span9 columns">
+          <h2>MyNote's photo gallery</h2>
+          <p>Note：hover on the photo to pause.</p>
+          <div id="myCarousel" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="./img/1.png" alt="">
+                <div class="carousel-caption">
+                  <h4>首页</h4>
+                </div>
+              </div>
+              <div class="item">
+                <img src="./img/2.png" alt="">
+                <div class="carousel-caption">
+                  <h4>注册页</h4>
+                </div>
+              </div>
+              <div class="item">
+                <img src="./img/3.png" alt="">
+                <div class="carousel-caption">
+                  <h4>登录页</h4>
+                </div>
+              </div>
+			  <div class="item">
+                <img src="./img/4.png" alt="">
+                <div class="carousel-caption">
+                  <h4>单独书页面</h4>
+                </div>
+              </div>
+			  <div class="item">
+                <img src="./img/5.png" alt="">
+                <div class="carousel-caption">
+                  <h4>增加新书</h4>
+                </div>
+              </div>
+			  <div class="item">
+                <img src="./img/6.png" alt="">
+                <div class="carousel-caption">
+                  <h4>单独标签</h4>
+                </div>
+              </div>
+			  <div class="item">
+                <img src="./img/7.png" alt="">
+                <div class="carousel-caption">
+                  <h4>所有标签</h4>
+                </div>
+              </div>
+			  <div class="item">
+                <img src="./img/8.png" alt="">
+                <div class="carousel-caption">
+                  <h4>“我悦我读”</h4>
+                </div>
+              </div>
+			  <div class="item">
+                <img src="./img/9.png" alt="">
+                <div class="carousel-caption">
+                  <h4>读书好友</h4>
+                </div>
+              </div>
+			  <div class="item">
+                <img src="./img/10.png" alt="">
+                <div class="carousel-caption">
+                  <h4>读书小组</h4>
+                </div>
+              </div>
+			  <div class="item">
+                <img src="./img/11.png" alt="">
+                <div class="carousel-caption">
+                  <h4>系统管理员</h4>
+                </div>
+              </div>
+			  <div class="item">
+                <img src="./img/12.png" alt="">
+                <div class="carousel-caption">
+                  <h4>小组管理员</h4>
+                </div>
+              </div>
+			  <div class="item">
+                <img src="./img/13.png" alt="">
+                <div class="carousel-caption">
+                  <h4>最佳排行</h4>
+                </div>
+              </div>
+            </div>
+            <a class="left carousel-control" href="MyNote.html#myCarousel" data-slide="prev">‹</a>
+            <a class="right carousel-control" href="MyNote.html#myCarousel" data-slide="next">›</a>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://twitter.github.com/bootstrap/assets/js/jquery.js"></script>
+    <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-transition.js"></script>
+    <script>
+      !function( $ ){
+
+        "use strict"
+
+        /* CAROUSEL CLASS DEFINITION
+         * ========================= */
+
+        var Carousel = function (element, options) {
+          this.$element = $(element)
+          this.options = $.extend({}, $.fn.carousel.defaults, options)
+          this.options.slide && this.slide(this.options.slide)
+          this.options.pause == 'hover' && this.$element
+              .on('mouseenter', $.proxy(this.pause, this))
+              .on('mouseleave', $.proxy(this.cycle, this))
+        }
+
+        Carousel.prototype = {
+
+          cycle: function () {
+            this.interval = setInterval($.proxy(this.next, this), this.options.interval)
+            return this
+          }
+
+          , to: function (pos) {
+            var $active = this.$element.find('.active')
+                , children = $active.parent().children()
+                , activePos = children.index($active)
+                , that = this
+
+            if (pos > (children.length - 1) || pos < 0) return
+
+            if (this.sliding) {
+              return this.$element.one('slid', function () {
+                that.to(pos)
+              })
+            }
+
+            if (activePos == pos) {
+              return this.pause().cycle()
+            }
+
+            return this.slide(pos > activePos ? 'next' : 'prev', $(children[pos]))
+          }
+
+          , pause: function () {
+            clearInterval(this.interval)
+            this.interval = null
+            return this
+          }
+
+          , next: function () {
+            if (this.sliding) return
+            return this.slide('next')
+          }
+
+          , prev: function () {
+            if (this.sliding) return
+            return this.slide('prev')
+          }
+
+          , slide: function (type, next) {
+            var $active = this.$element.find('.active')
+                , $next = next || $active[type]()
+                , isCycling = this.interval
+                , direction = type == 'next' ? 'left' : 'right'
+                , fallback  = type == 'next' ? 'first' : 'last'
+                , that = this
+
+            this.sliding = true
+
+            isCycling && this.pause()
+
+            $next = $next.length ? $next : this.$element.find('.item')[fallback]()
+
+            if ($next.hasClass('active')) return
+
+            if (!$.support.transition && this.$element.hasClass('slide')) {
+              this.$element.trigger('slide')
+              $active.removeClass('active')
+              $next.addClass('active')
+              this.sliding = false
+              this.$element.trigger('slid')
+            } else {
+              $next.addClass(type)
+              $next[0].offsetWidth // force reflow
+              $active.addClass(direction)
+              $next.addClass(direction)
+              this.$element.trigger('slide')
+              this.$element.one($.support.transition.end, function () {
+                $next.removeClass([type, direction].join(' ')).addClass('active')
+                $active.removeClass(['active', direction].join(' '))
+                that.sliding = false
+                setTimeout(function () { that.$element.trigger('slid') }, 0)
+              })
+            }
+
+            isCycling && this.cycle()
+
+            return this
+          }
+
+        }
+
+
+        /* CAROUSEL PLUGIN DEFINITION
+         * ========================== */
+
+        $.fn.carousel = function ( option ) {
+          return this.each(function () {
+            var $this = $(this)
+                , data = $this.data('carousel')
+                , options = typeof option == 'object' && option
+            if (!data) $this.data('carousel', (data = new Carousel(this, options)))
+            if (typeof option == 'number') data.to(option)
+            else if (typeof option == 'string' || (option = options.slide)) data[option]()
+            else data.cycle()
+          })
+        }
+
+        $.fn.carousel.defaults = {
+          interval: 2000
+          , pause: 'hover'
+        }
+
+        $.fn.carousel.Constructor = Carousel
+
+
+        /* CAROUSEL DATA-API
+         * ================= */
+
+        $(function () {
+          $('body').on('click.carousel.data-api', '[data-slide]', function ( e ) {
+            var $this = $(this), href
+                , $target = $($this.attr('data-target') || (href = $this.attr('href')) && href.replace(/.*(?=#[^\s]+$)/, '')) //strip for ie7
+                , options = !$target.data('modal') && $.extend({}, $target.data(), $this.data())
+            $target.carousel(options)
+            e.preventDefault()
+          })
+        })
+
+      }( window.jQuery );
+      $('.carousel').carousel();
+    </script>
+
+</body>
+</html>
