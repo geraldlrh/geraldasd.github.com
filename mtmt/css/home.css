@@ -1,10 +1,10 @@
-html {
-    /*background-color: rgba(238,243,250, 1);*/
-}
 body {
     padding-top: 30px;
     padding-bottom: 40px;
-    font-family: 'Microsoft YaHei',SimSun，黑体,arial,sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1010px;
+    font-family: 'Microsoft YaHei',SimSun,黑体,arial,sans-serif;
 }
 .sidebar-nav {
     padding: 9px 0;
@@ -13,7 +13,7 @@ body {
     background: #36789A url(../img/index/navBackground.png) repeat-x left top;
     padding-left: 0;
     padding-right: 5px;
-    width: 80%;
+    width: 1010px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -31,6 +31,7 @@ body {
     line-height: 22px;
     font-family: 'Microsoft YaHei',Arial,Helvetica,sans-serif;
     font-size: 16px;
+    font-weight: bold;
     letter-spacing: 5px;
     padding: 10px 18px;
 }
@@ -38,11 +39,12 @@ body {
     background-color: rgba(0,58,121,0.5);
 }
 .navbar .nav > li.dropdown a {
+    font-weight: normal;
     font-size: 12px;
     font-family: SimSun,'Microsoft YaHei',黑体,arial;
 }
 .dropdown-menu {
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255,255,255,0.8);
 }
 .dropdown-menu li > a:hover, .dropdown-menu .active > a, .dropdown-menu .active > a:hover {
     background-color: #E0E0E0;
@@ -69,7 +71,7 @@ body {
 }
 .row-fluid {
     background-color: #F5F5F5;
-    box-shadow: 2px 0px 99px rgba(238,243,250, 0.3), -2px 0px 99px rgba(238,243,250, 0.3);
+    box-shadow: 2px 0px 20px rgba(238,243,250, 0.3), -2px 0px 20px rgba(238,243,250, 0.3);
 }
 .well {
     border: 0;;
@@ -196,7 +198,8 @@ span.icon {
     background-color: transparent !important;
     position: absolute;
     top: 8px;
-    right: 335px;
+    right: 50%;
+    margin-right: -90px;
 }
 #schedule #change td {
     letter-spacing: 5px;
@@ -216,14 +219,6 @@ span.icon {
     padding: 10px 0;
     background-position: -125px -109px;
 }
-/*.badge {*/
-    /*background-color: #e7e7e7;*/
-    /*border-radius: 9px 9px 9px 9px;*/
-    /*color: #555555;*/
-    /*font-size: 12.025px;*/
-    /*padding: 1px 9px 2px;*/
-    /*white-space: nowrap;*/
-/*}*/
 #schedule .number td:hover, #schedule .dateBody td:hover {
     cursor: pointer;
 }
@@ -231,11 +226,11 @@ span.icon {
     color: #555;
     font-size: small;
     height: 53px;
-    width: 110px;
+    width: 14%;
     border: 1px #e7e7e7 solid;
 }
 #schedule tr:nth-child(4n+1), #schedule tr:nth-child(4n+2){
-    background-color: #F4F8FB;
+    background-color: #F6F8FE;
 }
 .dateHeader th {
     background-color: #e7e7e7;
@@ -274,10 +269,10 @@ span.icon {
 }
 #schedule .focusHeader {
     color: #36789A !important;
-    background-color: #FFF5F5;
+    background-color: #FFF9F9;
 }
 #schedule .focusBody {
-    background-color: #FFF5F5;
+    background-color: #FFF9F9;
 }
 #scheduleEdit {
     font-family: simsun,"宋体";
@@ -305,8 +300,15 @@ span.icon {
 #scheduleEdit div.button  span {
      margin-right: 10px;
 }
-#scheduleEdit div.button  span i {
+div.button  span i {
     vertical-align: baseline;
+}
+div.button  a {
+    text-align: center;
+}
+[class^="icon-"], [class*=" icon-"] {
+    height: 13px;
+    line-height: 13px;
 }
 #scheduleEdit ul {
     padding: 0 20px;
@@ -361,4 +363,7 @@ span.icon {
 }
 .MYHIDE {
     display: none;
+}
+footer {
+    text-align: center;
 }
