@@ -1,0 +1,18 @@
+#register-wrap {
+    margin-left: -110px;
+    margin-top: 20px;
+    width: 220px;
+}
+input:focus, textarea:focus {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+}
+#register-form .text-input {
+    height: 25px;
+    font-size: 16px;
+}
+#register-submit {
+    margin: 10px 0 0 0;
+    width: 220px;
+    letter-spacing: 30px;
+    padding-left: 29px;
+}

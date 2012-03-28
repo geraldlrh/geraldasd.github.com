@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Timespoon</title>
+  <meta name="description" content="">
+  <meta name="author" content="timespoon">
+
+  <!-- Le styles（后期优化成min） -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/bootstrap-responsive.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/validationEngine.jquery.css" type="text/css"/>
+  <link href="css/common.css" rel="stylesheet">
+  <link href="css/login.css" rel="stylesheet">
+
+  <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+  <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <!-- Le fav and touch icons (补上小图标)-->
+  <link rel="shortcut icon" href="img/index/favicon.ico">
+</head>
+
+<body>
+<div id="gradient">
+  <div id="wrap">
+    <div id="logo-holder">
+      <h1 id="logo"><a href="#">Timespoon</a></h1>
+    </div>
+
+    <!--后台调用ajax验证表单时候，若有密码错误、该用户不存在等信息提示，用jquery.validationEngine提供的接口已保证错误提示的风格一致-->
+    <div id="login-wrap">
+      <form  class="form-inline" id="login-form"  action="#" method="post">
+        <div class="input-wrap" id="input-login-account">
+          <span class="input-icon"></span>
+          <label>用户名</label>
+          <input class="startpage-input-text validate[required] text-input" name="accout" id="accout" type="text" autofocus>
+        </div>
+        <div class="input-wrap" id="input-login-pwd">
+          <span class="input-icon"></span>
+          <label>密码</label>
+          <input class="startpage-input-text validate[required,minSize[6]] text-input" id="password" type="password" name="password" >
+        </div>
+        <input type="submit" id="login-submit" class="btn btn-primary" value="登陆">
+        <a class="btn btn-primary" id="register-link" href="register.html">注册</a>
+      </form>
+      <div id="login-help" class="hidden">
+        <a href="#" id="forget-password">忘记密码?</a>
+      </div>
+    </div>
+  </div>
+
+<!-- Le javascript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap-transition.js"></script>
+<script src="js/login.js"></script>
+<script src="js/jquery.validationEngine-en.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/jquery.validationEngine-zh_CN.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/jquery.validationEngine.js" type="text/javascript" charset="utf-8"></script>
+</div>
+</body>
+</html>

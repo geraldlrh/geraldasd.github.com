@@ -1,0 +1,40 @@
+#content {
+    min-height: 580px;
+    font-family: simsun,"宋体";
+}
+#personalProfile, #personalProfilePassword {
+    margin: 10px;
+}
+#personalProfile, #personalProfilePassword  {
+    margin-top: 20px;
+    -moz-border-image: url('../img/index/personalBackground.png') 10 10 10 20 stretch;
+    -webkit-border-image: url('../img/index/personalBackground.png') 10 10 10 20 stretch;
+    border-image: url('../img/index/personalBackground.png') 10 10 10 20 stretch;
+    border-width: 10px;
+}
+.button {
+    font-family: 'Microsoft YaHei','微软雅黑';
+    margin-left: 680px;
+    margin-bottom: 10px;
+}
+.form-horizontal .control-label {
+    width: 80px;
+}
+.form-horizontal .controls {
+    margin-left: 100px;
+}
+.radio {
+    display: inline;
+}
+.radio input[type="radio"], .checkbox input[type="checkbox"] {
+    float: none;
+    margin: 0;
+    vertical-align: top;
+}
+input[type="text"]:hover, input[type="text"]:focus, input[type="password"]:hover {
+    background-color: #F5F5F5;
+    color: #000000;
+}
+#personalProfilePassword input[type="password"] {
+    font-size: 8px;
+}
