@@ -21,71 +21,88 @@
     <favorites_list name="front" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="personalProfile.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/personalProfile.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="161" column="92" selection-start="6442" selection-end="6442" vertical-scroll-proportion="-7.90625">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="personalProfile.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/personalProfile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="3" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/login.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="4" selection-start="645" selection-end="686" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="personalProfile.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/personalProfile.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="1" selection-start="985" selection-end="985" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/home.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="151" column="41" selection-start="4125" selection-end="4146" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="personalProfilePassword.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/personalProfilePassword.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="118" column="46" selection-start="4360" selection-end="4360" vertical-scroll-proportion="0.52640843">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/register.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="8" selection-start="1645" selection-end="1722" vertical-scroll-proportion="-13.75">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.67303103">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="personalProfile.html" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/personalProfile.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="176" column="47" selection-start="6891" selection-end="6891" vertical-scroll-proportion="0.6086142">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="avatar.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/avatar.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="49" column="76" selection-start="1797" selection-end="1859" vertical-scroll-proportion="-5.03125">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="personalProfile.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/js/personalProfile.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="8" column="40" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="47" column="80" selection-start="1883" selection-end="1883" vertical-scroll-proportion="-14.15625">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="home.css" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/home.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="102" column="19" selection-start="2533" selection-end="2553" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="personalProfile.css" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/personalProfile.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="106" column="1" selection-start="2163" selection-end="2163" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="personalProfilePassword.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/personalProfilePassword.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="48" column="76" selection-start="1787" selection-end="1787" vertical-scroll-proportion="-12.71875">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="personalProfile.css" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/css/personalProfile.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="108" column="21" selection-start="2207" selection-end="2207" vertical-scroll-proportion="0.90459967">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -106,14 +123,15 @@
         <option value="$PROJECT_DIR$/js/login.js" />
         <option value="$PROJECT_DIR$/.idea/personalProfile.html" />
         <option value="$PROJECT_DIR$/css/login.css" />
-        <option value="$PROJECT_DIR$/css/home.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/register.html" />
         <option value="$PROJECT_DIR$/login.html" />
-        <option value="$PROJECT_DIR$/js/personalProfile.js" />
-        <option value="$PROJECT_DIR$/personalProfile.html" />
-        <option value="$PROJECT_DIR$/css/personalProfile.css" />
+        <option value="$PROJECT_DIR$/css/home.css" />
+        <option value="$PROJECT_DIR$/avatar.html" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/personalProfilePassword.html" />
+        <option value="$PROJECT_DIR$/personalProfile.html" />
+        <option value="$PROJECT_DIR$/js/personalProfile.js" />
+        <option value="$PROJECT_DIR$/css/personalProfile.css" />
       </list>
     </option>
   </component>
@@ -259,11 +277,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/register.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="19" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/common.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="35" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0" />
@@ -279,16 +292,6 @@
         <state line="77" column="23" selection-start="2067" selection-end="2067" vertical-scroll-proportion="-0.5672913" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="149" column="0" selection-start="4903" selection-end="4904" vertical-scroll-proportion="-4.08" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/jquery.validationEngine.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="707" column="16" selection-start="23194" selection-end="23194" vertical-scroll-proportion="0.16254418" />
@@ -299,45 +302,69 @@
         <state line="44" column="41" selection-start="1644" selection-end="1727" vertical-scroll-proportion="0.73220974" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/personalProfile.js">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webide.jar!/resources/html5-schema/common.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="3" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0" />
+        <state line="123" column="19" selection-start="3271" selection-end="3271" vertical-scroll-proportion="1.0636042" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="151" column="32" selection-start="4925" selection-end="4958" vertical-scroll-proportion="0.3303887" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/login.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="4" selection-start="645" selection-end="686" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/personalProfile.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="1" selection-start="985" selection-end="985" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/home.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="151" column="41" selection-start="4125" selection-end="4146" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/personalProfile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="161" column="92" selection-start="6442" selection-end="6442" vertical-scroll-proportion="-7.90625">
-          <folding />
-        </state>
+        <state line="20" column="4" selection-start="645" selection-end="686" vertical-scroll-proportion="0.6822107" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/register.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="8" selection-start="1645" selection-end="1722" vertical-scroll-proportion="-13.75">
+        <state line="39" column="8" selection-start="1645" selection-end="1722" vertical-scroll-proportion="0.043071162" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="19" selection-start="2533" selection-end="2553" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="80" selection-start="1883" selection-end="1883" vertical-scroll-proportion="-14.15625">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/personalProfilePassword.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="118" column="46" selection-start="4360" selection-end="4360" vertical-scroll-proportion="0.52640843">
+        <state line="48" column="76" selection-start="1787" selection-end="1787" vertical-scroll-proportion="-12.71875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avatar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="76" selection-start="1797" selection-end="1859" vertical-scroll-proportion="-5.03125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/personalProfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="40" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personalProfile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="176" column="47" selection-start="6891" selection-end="6891" vertical-scroll-proportion="0.6086142">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/personalProfile.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="108" column="21" selection-start="2207" selection-end="2207" vertical-scroll-proportion="0.90459967">
           <folding />
         </state>
       </provider>

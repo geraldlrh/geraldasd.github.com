@@ -14,8 +14,11 @@
 }
 .button {
     font-family: 'Microsoft YaHei','微软雅黑';
-    margin-left: 680px;
     margin-bottom: 10px;
+}
+#saveButton {
+    display: inline-block;
+    margin-left: 680px;
 }
 .form-horizontal .control-label {
     width: 80px;
@@ -37,4 +40,71 @@ input[type="text"]:hover, input[type="text"]:focus, input[type="password"]:hover
 }
 #personalProfilePassword input[type="password"] {
     font-size: 8px;
+}
+#editAvatar, #showAvatar {
+    position: absolute;
+    right: 12px;
+    top: 18px;
+    height: 220px;
+}
+#showAvatar img {
+    margin: 0 20px;
+    margin-bottom: -10px;
+    width: 150px;
+    height: 150px;
+}
+#photo {
+    background: white;
+    border: 1px solid #CCCCCC;
+    width: 220px;
+    max-height: 220px;
+    margin-right: 50px;
+}
+#photo #target {
+    text-align: center;
+    vertical-align: middle;
+    max-height: 220px;
+    width: 220px;
+    margin:auto;
+}
+#personalProfile {
+    position: relative;
+}
+#showAvatar .button {
+    display: inline-block;
+}
+img {
+    max-width: inherit;
+}
+#editAvatar>div {
+    float: left;
+}
+#editAvatar form {
+    margin-top: 68px;
+}
+#previewPhoto18 {
+    margin-top: 30px;
+    margin-left: 45px;
+    width: 18px;
+    height: 18px;
+    overflow: hidden;
+}
+#previewPhoto30 {
+    margin-top: 10px;
+    margin-left: 33px;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+}
+#editAvatar p {
+    color: #999;
+    padding-left: 3px;
+}
+#right {
+    padding-left: 15px;
+    height: 220px;
+    border-left: 1px solid #ccc;
+}
+#showAvatar .hidden {
+    display: inherit;
 }

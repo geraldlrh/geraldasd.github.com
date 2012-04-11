@@ -10,6 +10,7 @@
   <link href="css/bootstrap.css" rel="stylesheet">
   <link href="css/bootstrap-responsive.css" rel="stylesheet">
   <link rel="stylesheet" href="css/validationEngine.jquery.css" type="text/css"/>
+  <link rel="stylesheet" href="css/jquery.Jcrop.css" type="text/css" />
   <link href="css/common.css" rel="stylesheet">
   <link href="css/home.css" rel="stylesheet">
   <link href="css/personalProfile.css" rel="stylesheet">
@@ -46,6 +47,7 @@
             <a href="#"
                class="dropdown-toggle"
                data-toggle="dropdown">
+              <img src="img/avatar/default.jpg" alt="avatar" title="avatar">
               北上的风
               <b class="caret"></b>
             </a>
@@ -94,76 +96,89 @@
           <header>
             <i class="icon-user"></i>
           </header>
-          <div>
-            <form id="profile-form" class="form-horizontal" method="post" action="">
-              <div class="control-group">
-                <label class="control-label" for="userName">用户名：</label>
-                <div class="controls">
-                  <input type="text" class="input-xlarge validate[required]" name="userName" id="userName" value="王五">
-                </div>
+
+          <form id="profile-form" class="form-horizontal" method="post" action="">
+            <div class="control-group">
+              <label class="control-label" for="userName">用户名：</label>
+              <div class="controls">
+                <input type="text" class="input-xlarge validate[required]" name="userName" id="userName" value="王五">
               </div>
-              <div class="control-group">
-                <label class="control-label" for="email">邮箱：</label>
-                <div class="controls">
-                  <input type="text" class="input-xlarge validate[required,custom[email]]" name="email" id="email" value="liurihiuasd@163.com">
-                </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label" for="email">邮箱：</label>
+              <div class="controls">
+                <input type="text" class="input-xlarge validate[required,custom[email]]" name="email" id="email" value="liurihiuasd@163.com">
               </div>
-              <div class="control-group">
-                <label class="control-label" for="trueName">真实姓名：</label>
-                <div class="controls">
-                  <input type="text" class="input-xlarge" name="trueName" id="trueName" value="王小五">
-                </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label" for="trueName">真实姓名：</label>
+              <div class="controls">
+                <input type="text" class="input-xlarge" name="trueName" id="trueName" value="王小五">
               </div>
-              <div class="control-group">
-                <label class="control-label">性别：</label>
-                <div class="controls">
-                  <label class="radio">
-                    <input type="radio" name="gender" id="male" value="male" checked="">
-                    男
-                  </label>
-                  <label class="radio">
-                    <input type="radio" name="gender" id="female" value="female">
-                    女
-                  </label>
-                </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label">性别：</label>
+              <div class="controls">
+                <label class="radio">
+                  <input type="radio" name="gender" id="male" value="male" checked="">
+                  男
+                </label>
+                <label class="radio">
+                  <input type="radio" name="gender" id="female" value="female">
+                  女
+                </label>
               </div>
-              <div class="control-group">
-                <label class="control-label" for="tel">电话号码：</label>
-                <div class="controls">
-                  <input type="text" class="input-xlarge validate[custom[number]]" name="tel" id="tel" value="461646136">
-                </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label" for="tel">电话号码：</label>
+              <div class="controls">
+                <input type="text" class="input-xlarge validate[custom[number]]" name="tel" id="tel" value="461646136">
               </div>
-              <div class="control-group">
-                <label class="control-label" for="qq">QQ号码：</label>
-                <div class="controls">
-                  <input type="text" class="input-xlarge validate[custom[number]]" name="qq" id="qq" value="94613613">
-                </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label" for="qq">QQ号码：</label>
+              <div class="controls">
+                <input type="text" class="input-xlarge validate[custom[number]]" name="qq" id="qq" value="94613613">
               </div>
-              <div class="control-group">
-                <label class="control-label" for="msn">MSN：</label>
-                <div class="controls">
-                  <input type="text" class="input-xlarge validate[custom[number]]" name="msn" id="msn" value="94613613">
-                </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label" for="msn">MSN：</label>
+              <div class="controls">
+                <input type="text" class="input-xlarge validate[custom[number]]" name="msn" id="msn" value="94613613">
               </div>
-              <div class="control-group">
-                <label class="control-label" for="school">学校：</label>
-                <div class="controls">
-                  <input type="text" class="input-xlarge" name="school" id="school" value="中山大学">
-                </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label" for="school">学校：</label>
+              <div class="controls">
+                <input type="text" class="input-xlarge" name="school" id="school" value="中山大学">
               </div>
-              <div class="control-group">
-                <label class="control-label" for="career">职业：</label>
-                <div class="controls">
-                  <input type="text" class="input-xlarge" name="career" id="career" value="学生">
-                </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label" for="career">职业：</label>
+              <div class="controls">
+                <input type="text" class="input-xlarge" name="career" id="career" value="学生">
               </div>
-              <div class="button">
-                <span id="saveButton">
-                  <a class="btn btn-primary" href="#"><i class="icon-check icon-white"></i> 保存修改</a>
+            </div>
+
+            <div class="button">
+              <span id="saveButton">
+                <a class="btn btn-primary" href="#"><i class="icon-check icon-white"></i> 保存修改</a>
+              </span>
+            </div>
+          </form>
+          <!--显示头像-->
+          <div id="showAvatar">
+            <img src="img/avatar/default.jpg" id="avatar" alt="avatar"/>
+            <div class="button">
+                <span id="editAvatarButton">
+                  <a class="btn" href="#"><i class="icon-picture"></i> 修改头像</a>
                 </span>
-              </div>
+             </div>
+            <form id="J_ImageForm" class="hidden" enctype="multipart/form-data" method="post" action="upload_avatar.php">
+              <input id="J_InputFile" name="file"type="file">
             </form>
           </div>
+
         </section>
       </div><!--content-->
     </div><!--/span9-->
@@ -185,6 +200,7 @@
 <script src="js/jquery.validationEngine-en.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/jquery.validationEngine-zh_CN.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/jquery.validationEngine.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/jquery.Jcrop.min.js"></script>
 <script src="js/personalProfile.js"></script>
 
 </body>
