@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Timespoon</title>
+  <meta name="description" content="">
+  <meta name="author" content="timespoon">
+
+  <!-- Le styles（后期优化成min） -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/bootstrap-responsive.css" rel="stylesheet">
+  <link href="css/common.css" rel="stylesheet">
+  <link href="css/home.css" rel="stylesheet">
+  <link href="css/blog.css" rel="stylesheet">
+
+  <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+  <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <!-- Le fav and touch icons (补上小图标)-->
+  <link rel="shortcut icon" href="img/index/favicon.ico">
+</head>
+
+<body>
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container-fluid">
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+      <a class="brand" href="index.html"><img src="img/index/logo.png" alt="logo" title="logo" /></a>
+      <div class="nav-collapse">
+        <ul class="nav">
+          <li><a href="index.html">首页</a></li>
+          <li><a href="underConstruction.html">团队</a></li>
+          <li class="active"><a href="blog.html">知识</a></li>
+          <li><a href="underConstruction.html">其他</a></li>
+        </ul>
+        <ul class="nav pull-right" >
+          <li class="dropdown">
+            <a href="#"
+               class="dropdown-toggle"
+               data-toggle="dropdown">
+              <img src="img/avatar/default.jpg" alt="avatar" title="avatar">
+              北上的风
+              <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="personalProfile.html">修改资料</a></li>
+              <li><a href="personalProfilePassword.html">修改密码</a></li>
+              <li class="divider"></li>
+              <li><a href="login.html"><i class="icon-off"></i> 退出</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </div>
+</div><!--/.nav -->
+
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span3">
+      <div class="well sidebar-nav">
+        <ul class="nav nav-list">
+          <li class="active" id="blogLink">
+            <a href="#">
+              <span class="sidebarIcon"></span>
+              <span class="sidebarText">笔记列表</span>
+            </a>
+          </li>
+          <li id="noteLink">
+            <a href="note.html">
+              <span class="sidebarIcon"></span>
+              <span class="sidebarText">便签列表</span>
+            </a>
+          </li>
+          <li id="attachmentLink">
+            <a href="#">
+              <span class="sidebarIcon"></span>
+              <span class="sidebarText">附件列表</span>
+            </a>
+          </li>
+        </ul>
+      </div><!--/.well -->
+    </div><!--/span-->
+    <div class="span9">
+      <div id="content">
+        <!--每次显示当前页的前5页和后4页（共10页的单选框），若遇到上下限（如第一页或最后一页），朝相反方向延伸，参考google搜索结果的分页-->
+        <section id="blogList">
+          <!--摘要模式显示图片等高，并排，字体大小统一(最多四行，需正确显示换行)，完整模式显示原本样式（嵌入html的源码），即用户编辑时看到的样式-->
+          <div class="button">
+            <span id="addButton">
+              <a class="btn btn-primary" href="#"><i class="icon-plus icon-white"></i> 添加笔记</a>
+            </span>
+          </div>
+          <ul>
+            <li>
+              <header class="blogTitle">
+                <a href="#" title="大学城周sir">大学城周sir</a>
+              </header>
+              <div class="blogContent">
+                <p>
+                  今天白天广州雷阵雨，今天夜间阵雨，明天白天雷阵雨，明天夜间大到暴雨，后天白天大到暴雨。最近
+                  几天，广州都将持续有雨，并将伴有电闪雷鸣。提醒大家注意出行安全。尼玛的才放晴两天，雷暴雨又
+                  要来了，大家注意啦。
+                  <br/>
+                  1、雷雨时，人不要靠近高压电线和孤立的高楼、大树、旗杆等，更不要站在空旷
+                </p>
+              </div>
+              <footer>
+                <span class="createTime" title="2010-01-01 00:00">2010-01-01</span>
+                <span><a href="#" title="查看全文">查看全文</a></span>
+                <span class="editButton"><a href="#" title="编辑"><span class="icon"></span></a></span>
+                <span class="deleteButton"><a href="#" title="删除"><span class="icon"></span></a></span>
+              </footer>
+            </li>
+            <li>
+              <header class="blogTitle">
+                <a href="#" title="">短篇测试</a>
+              </header>
+              <div class="blogContent">
+                <p>我是短文</p>
+              </div>
+              <footer>
+                <span class="createTime" title="2010-01-01 00:00">2010-01-01</span>
+                <span><a href="#" title="查看全文">查看全文</a></span>
+                <span class="editButton"><a href="#" title="编辑"><span class="icon"></span></a></span>
+                <span class="deleteButton"><a href="#" title="删除"><span class="icon"></span></a></span>
+              </footer>
+            </li>
+            <li>
+              <header class="blogTitle">
+                <a href="#" title="">图片及长篇测试</a>
+              </header>
+              <div class="blogContent">
+                <div class="photoShow">
+                  <a href="#" title="查看全文"><img src="img/blog/1.jpg"></a>
+                  <a href="#" title="查看全文"><img src="img/blog/2.jpg"></a>
+                </div>
+                <p>
+                  今天白天广州雷阵雨，今天夜间阵雨，明天白天雷阵雨，明天夜间大到暴雨，后天白天大到暴雨。最近
+                  几天，广州都将持续有雨，并将伴有电闪雷鸣。提醒大家注意出行安全。尼玛的才放晴两天，雷暴雨又
+                  要来了，大家注意啦。
+                  今天白天广州雷阵雨，今天夜间阵雨，明天白天雷阵雨，明天夜间大到暴雨，后天白天大到暴雨。最近
+                  几天，广州都将持续有雨，并将伴有电闪雷鸣。提醒大家注意出行安全。尼玛的才放晴两天，雷暴雨又
+                  要来了，大家注意啦。
+                  <br/>
+                  我是图片及长篇测试
+                </p>
+              </div>
+              <footer>
+                <span class="createTime" title="2010-01-01 00:00">2010-01-01</span>
+                <span><a href="#" title="查看全文">查看全文</a></span>
+                <span class="editButton"><a href="#" title="编辑"><span class="icon"></span></a></span>
+                <span class="deleteButton"><a href="#" title="删除"><span class="icon"></span></a></span>
+              </footer>
+            </li>
+          </ul>
+          <div id="pagination">
+            <ul class="pager">
+              <li class="previous">
+                <a href="#">上一页</a>
+              </li>
+              <li class="dropup">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">第1页 <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <!--总页数-->
+                  <li class="HIDDEN"><a href="">第999页</a></li>
+                  <li><a href="#">第10页</a></li>
+                  <li><a href="#">第9页</a></li>
+                  <li><a href="#">第8页</a></li>
+                  <li><a href="#">第7页</a></li>
+                  <li><a href="#">第6页</a></li>
+                  <li><a href="#">第5页</a></li>
+                  <li><a href="#">第4页</a></li>
+                  <li><a href="#">第3页</a></li>
+                  <li><a href="#">第2页</a></li>
+                  <li><a href="#">第1页</a></li>
+                </ul>
+              </li>
+              <li class="next">
+                <a href="#">下一页</a>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div><!--content-->
+    </div><!--/span9-->
+  </div><!--/row-->
+
+  <hr>
+  <footer>
+    <p>&copy; TIMESPOON 2012</p>
+  </footer>
+
+</div><!--/.fluid-container-->
+
+<!-- Le javascript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/blog.js"></script>
+
+</body>
+</html>

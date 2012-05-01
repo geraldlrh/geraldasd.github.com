@@ -1,0 +1,133 @@
+#content {
+    min-height: 580px;
+    background: white;
+    overflow: hidden;
+}
+.sidebar-nav span.sidebarIcon {
+    background: url(../img/blog/blogLinkbar.png) no-repeat;
+}
+#blogLink span.sidebarIcon {
+    background-position: 3px -3px;
+}
+#noteLink span.sidebarIcon {
+    background-position: 3px -43px;
+}
+#attachmentLink span.sidebarIcon {
+    background-position: 3px -83px;
+}
+#blogList {
+    margin: 10px;
+    margin-top: 20px;
+}
+#blogList div.button  {
+    float: right;
+    margin-right: 4px;
+}
+#blogList ul {
+    padding-top: 1px;
+    padding-left: 0;
+    clear: both;
+}
+#blogList > ul > li {
+    margin-top: 20px;
+    padding: 5px 15px;
+    -moz-border-image: url('../img/index/personalBackground.png') 10 10 10 20 stretch;
+    -webkit-border-image: url('../img/index/personalBackground.png') 10 10 10 20 stretch;
+    border-image: url('../img/index/personalBackground.png') 10 10 10 20 stretch;
+    border-width: 10px;
+}
+#blogList .blogTitle, #blogList .blogContent > p {
+    font-family: 'simsun', '宋体', 'arial';
+    letter-spacing: 1px;
+}
+#blogList .blogTitle a {
+    color: #015496;
+    font-size: 20px;
+}
+#blogList .blogContent {
+    max-height: 170px;
+    overflow: hidden;
+}
+#blogList .blogContent > p {
+    color: #333;
+    font-size: 15px;
+}
+#blogList footer {
+    text-align: left;
+}
+#blogList footer>span {
+    padding-right: 15px;
+}
+#blogList footer, #blogList footer a {
+    color: #b8b8b8;
+}
+#blogList footer a:hover {
+    color: #333;
+    text-decoration: none;
+}
+#blogList footer span.icon {
+    display: inline-block;
+    padding: 0 7px 0 0;
+    height: 19px;
+    background: url(../img/index/icon.png) no-repeat;
+}
+#blogList footer .editButton span.icon {
+    background-position: -65px -11px;
+}
+#blogList footer .deleteButton span.icon {
+    background-position: -80px -64px;
+}
+#blogList footer .editButton span.icon:hover {
+    background-position: -111px -11px;
+}
+#blogList footer .deleteButton span.icon:hover {
+    background-position: -126px -64px;
+}
+.blogTitle, .blogContent {
+    margin-bottom: 15px;
+}
+.blogContent > p {
+    line-height: 24px;
+}
+.blogContent .photoShow img{
+   height: 120px;
+}
+#pagination {
+    margin: 5px;
+    margin-top: 15px;
+    float: right;
+}
+li.dropup a, li.dropup a:hover {
+    border: none;
+    background: transparent;
+    border-radius: 0;
+}
+.dropup .caret {
+    padding-top: 8px;
+    border-bottom-color: #0088CC;
+    border-top-color: #0088CC;
+}
+.dropup .caret:hover, .dropup .caret:active {
+    border-bottom-color: #005580;
+    border-top-color: #005580;
+}
+.dropup:hover .caret {
+    opacity: 1;
+}
+.dropup .dropdown-menu {
+    min-width: 78px;
+}
+.dropup .dropdown-menu a {
+    color: #0088CC;
+    display: block;
+}
+.dropup .dropdown-menu li > a:hover,
+.dropup .dropdown-menu .active > a,
+.dropup .dropdown-menu .active > a:hover {
+    color: #005580;
+    background-color: #F5F5F5;
+}
+.HIDDEN {
+    display: none !important;
+    visibility: hidden !important;
+}
