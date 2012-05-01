@@ -4,7 +4,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 1010px;
-    font-family: 'Microsoft YaHei',SimSun,黑体,arial,sans-serif;
+    font-family: 'Microsoft YaHei',SimSun,'黑体',arial,sans-serif;
 }
 .sidebar-nav {
     padding: 9px 0;
@@ -53,6 +53,7 @@ body {
     padding: 0;
 }
 .dropdown img {
+    vertical-align: baseline;
     margin-bottom: -5px;
     height: 18px;
     width: 18px;
@@ -87,6 +88,7 @@ body {
     padding-top: 30px;
 }
 .sidebar-nav > .nav-list > li > a  {
+    font-size: 14px;
     padding: 9px 10px;
     color: #444444;
     border-bottom: 1px solid #E0E0E0;
@@ -231,7 +233,7 @@ span.icon {
     color: #555;
     font-size: small;
     height: 53px;
-    width: 14%;
+    width: 109px;
     border: 1px #e7e7e7 solid;
 }
 #schedule tr:nth-child(4n+1), #schedule tr:nth-child(4n+2){

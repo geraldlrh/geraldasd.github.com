@@ -18,3 +18,7 @@ html {
 input, button, select, textarea {
     font-family:  SimSun,'宋体','黑体';
 }
+/*去掉虚线款*/
+a:visited, a:active {
+    outline: none;
+}

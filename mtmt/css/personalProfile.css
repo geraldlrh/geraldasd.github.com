@@ -2,10 +2,8 @@
     min-height: 580px;
     font-family: simsun,"宋体";
 }
-#personalProfile, #personalProfilePassword {
-    margin: 10px;
-}
 #personalProfile, #personalProfilePassword  {
+    margin: 10px;
     margin-top: 20px;
     -moz-border-image: url('../img/index/personalBackground.png') 10 10 10 20 stretch;
     -webkit-border-image: url('../img/index/personalBackground.png') 10 10 10 20 stretch;
