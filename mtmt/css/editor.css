@@ -1,0 +1,14 @@
+.ke-content, .ke-content p {
+    color: #333;
+    font-size: 15px;
+    line-height: 24px;
+    font-family: 'simsun', '宋体', 'arial';
+    letter-spacing: 1px;
+}
+a:link, a:visited {
+    text-decoration:none;
+    color:#015496;
+}
+a:hover {
+    text-decoration: underline;
+}

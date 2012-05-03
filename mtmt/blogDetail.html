@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'/>
+  <style>
+    #blogDetail {
+      width: 900px;
+      max-height: 500px;
+      overflow: auto;
+    }
+    #blogDetail  a:link, #blogDetail a:visited {
+      text-decoration:none;
+      color:#015496;
+    }
+    #blogDetail a:hover {
+      text-decoration: underline;
+    }
+    #blogDetail .title h1, #blogDetail .content {
+      font-family: 'simsun', '宋体', 'arial';
+      letter-spacing: 1px;
+    }
+    #blogDetail .title .createTime {
+      font-size: 13px;
+      color: #B8B8B8;
+      font-family: 'microsoft yahei','雅黑';
+    }
+    #blogDetail #info,#blogDetail #button {
+      margin: 7px 0;
+    }
+    #blogDetail #info > span, #blogDetail #button > span {
+      display: inline-block;
+    }
+    #blogDetail .title .next {
+      font-family: 'simsun', '宋体', 'arial';
+      font-size: 13px;
+      float: right;
+    }
+    #blogDetail #button .editButton {
+      margin-left: -15px;
+      margin-right: 15px;
+    }
+    #blogDetail .title h1 {
+      color: #015496;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    #blogDetail .content, .content p {
+      color: #333;
+      font-size: 15px;
+      line-height: 24px;
+    }
+  </style>
+</head>
+<body>
+<section id="blogDetail">
+  <!--标题统一样式-->
+  <header class="title">
+    <h1>大学城周sir</h1>
+    <div id="info">
+      <span class="createTime">2010-01-01 00:00</span>
+      <!--这里用flash.html来测试，后面要换成blogDetail.html-->
+      <span class="next"><a class="nextBlog" title="我是下一篇文章" href="flash.html" >下一篇：我是梦想家</a></span>
+    </div>
+    <div id="button">
+      <span class="editButton"><a href="#" title="编辑"><span class="icon"></span></a></span>
+      <span class="deleteButton"><a class="delete2" href="#" title="删除"><span class="icon"></span></a></span>
+    </div>
+  </header>
+  <!--正文将kindEditor的html代码直接显示-->
+  <div class="content">
+    <p></p>
+    <span style="font-weight:bold;">KindEditor</span>
+    是一套开源的HTML可视化编辑器，主要用于让用户在网站上获得所见即所得编辑效果，兼容IE、Firefox、Chrome、Safari、Opera等主流浏览器。
+    <br/>
+    <h3><span style="background-color:#ff9900;">KindEditor</span>使用JavaScript编写，可以无缝的与<a href="http://www.baidu.com" target="_blank">Java</a>、.NET、PHP、ASP等程序接合。
+      KindEditor非常适合在CMS、商城、论坛、博客、Wiki、电子邮件等互联网应用上使用，2006年7月首次发布2.0以来，KindEditor依靠出色的用户体验和领先的技术不断扩大编辑器市场占有率<span style="color:#00d5ff;">，目前在国内已经成为最受欢迎的编辑器之一。 </span><br>
+    </h3>
+  </div>
+</section>
+<script>
+  $(document).ready(function(){
+    $(".nextBlog").colorbox({title:false});
+  });
+</script>
+</body>
+</html>
