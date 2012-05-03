@@ -12,6 +12,7 @@
   <link href="css/common.css" rel="stylesheet">
   <link href="css/home.css" rel="stylesheet">
   <link href="css/blog.css" rel="stylesheet">
+  <link href="css/colorbox.css" rel="stylesheet">
 
   <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
   <!--[if lt IE 9]>
@@ -95,13 +96,13 @@
           <!--摘要模式显示图片等高，并排，字体大小统一(最多四行，需正确显示换行)，完整模式显示原本样式（嵌入html的源码），即用户编辑时看到的样式-->
           <div class="button">
             <span id="addButton">
-              <a class="btn btn-primary" href="#"><i class="icon-plus icon-white"></i> 添加笔记</a>
+              <a class="btn btn-primary editBlog" href="blogEdit.html"><i class="icon-plus icon-white"></i> 添加笔记</a>
             </span>
           </div>
           <ul>
-            <li>
+            <li class="blog">
               <header class="blogTitle">
-                <a href="#" title="大学城周sir">大学城周sir</a>
+                <a class="showDetail" href="blogDetail.html">大学城周sir</a>
               </header>
               <div class="blogContent">
                 <p>
@@ -114,9 +115,9 @@
               </div>
               <footer>
                 <span class="createTime" title="2010-01-01 00:00">2010-01-01</span>
-                <span><a href="#" title="查看全文">查看全文</a></span>
-                <span class="editButton"><a href="#" title="编辑"><span class="icon"></span></a></span>
-                <span class="deleteButton"><a href="#" title="删除"><span class="icon"></span></a></span>
+                <span><a class="showDetail" href="blogDetail.html" >查看全文</a></span>
+                <span class="editButton"><a class="editBlog" href="blogEdit.html" title="编辑"><span class="icon"></span></a></span>
+                <span class="deleteButton"><a class="delete" href="#" title="删除"><span class="icon"></span></a></span>
               </footer>
             </li>
             <li>
@@ -139,10 +140,11 @@
               </header>
               <div class="blogContent">
                 <div class="photoShow">
-                  <a href="#" title="查看全文"><img src="img/blog/1.jpg"></a>
+                  <a class="showDetail" href="blogDetail.html" title="查看全文"><img src="img/blog/1.jpg"></a>
                   <a href="#" title="查看全文"><img src="img/blog/2.jpg"></a>
                 </div>
                 <p>
+                  我是梦想家……<br/>
                   今天白天广州雷阵雨，今天夜间阵雨，明天白天雷阵雨，明天夜间大到暴雨，后天白天大到暴雨。最近
                   几天，广州都将持续有雨，并将伴有电闪雷鸣。提醒大家注意出行安全。尼玛的才放晴两天，雷暴雨又
                   要来了，大家注意啦。
@@ -205,6 +207,9 @@
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.colorbox.js"></script>
+<script charset="utf-8" src="editor/kindeditor.js"></script>
+<script charset="utf-8" src="editor/lang/zh_CN.js"></script>
 <script src="js/blog.js"></script>
 
 </body>
