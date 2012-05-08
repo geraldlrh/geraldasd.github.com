@@ -215,8 +215,8 @@ span.icon {
     border: none;
 }
 #schedule #change td span.num{
-    font-size: 25px;
-    font-family: 'Felipa', sans-serif;
+    font-size: 18px;
+    font-family: 'charlemagnestd-bold', sans-serif;
 }
 #schedule #change span.pre {
     padding: 10px 0;
@@ -373,4 +373,9 @@ div.button  a {
 }
 footer {
     text-align: center;
+}
+/*外部字体*/
+@font-face {
+    font-family: 'charlemagnestd-bold';
+    src:url('../fonts/charlemagnestd-bold.otf');
 }

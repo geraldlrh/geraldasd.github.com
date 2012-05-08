@@ -99,10 +99,6 @@
 .pager>li {
    float: left; /*修复chrome的bug*/
 }
-ul, li {
-    padding: 0;
-    margin: 0;
-}
 li.dropup a, li.dropup a:hover {
     border: none;
     background: transparent;
