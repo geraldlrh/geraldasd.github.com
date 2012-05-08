@@ -7,24 +7,34 @@
  */
 $().ready(function() {
     controlPage();
+    //查看全文
     $(".showDetail").colorbox({title:true});
+
     //编辑时用ajax更新blogEdit.html，新增时不用更新，待完成
-    $(".editBlog").colorbox({title:true});
+    $(".addBlog").colorbox({iframe:true, width:905, height:600,title:true,scrolling: false});
+    $(".editBlog").colorbox({iframe:true, width:905, height:600,title:true,scrolling: false});
+    //弹出查看层时候的编辑按钮
+    $('.editBlog2').live('click', function() {
+        //找到该笔记对应的id或者标题再更新blogEdit.html
+        $('#blog_1 .editBlog').click();
+        return false;
+    });
 
     // delete blog
     $('.delete').live('click', function() {
         blog.deleteBlog($(this));
         return false;
     });
+    //弹出查看层时候的删除按钮
     $('.delete2').live('click', function() {
         var title = $(this).closest('.title>h1').text();
         $.colorbox.close();
-        //找到改笔记对应的id或者标题再删除，代码类型首页，待完成
+        //找到该笔记对应的id或者标题再删除，代码类似首页，待完成
         $('.delete').click();
         return false;
     });
 
-    //next blog
+    //next blog, 当前链接到测试网页flash.html,应该直接刷新本页的内容
     $('.nextBlog').live('click', function() {
         blog.nextBlog($(this));
         return false;

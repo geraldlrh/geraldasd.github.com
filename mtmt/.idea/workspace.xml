@@ -21,13 +21,13 @@
     <favorites_list name="front" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.58393">
+    <splitter split-orientation="horizontal" split-proportion="0.46937153">
       <split-first>
         <leaf>
           <file leaf-file-name="blog.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/blog.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="209" column="0" selection-start="7976" selection-end="8021" vertical-scroll-proportion="0.0">
+                <state line="103" column="39" selection-start="3649" selection-end="3649" vertical-scroll-proportion="-4.419355">
                   <folding />
                 </state>
               </provider>
@@ -47,16 +47,16 @@
           <file leaf-file-name="blogDetail.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/blogDetail.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="65" column="50" selection-start="1695" selection-end="1702" vertical-scroll-proportion="0.0">
+                <state line="54" column="45" selection-start="1237" selection-end="1237" vertical-scroll-proportion="-12.225806">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="blogEdit.html" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="blogEdit.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/blogEdit.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="112" column="40" selection-start="2881" selection-end="2881" vertical-scroll-proportion="1.4446529">
+                <state line="23" column="24" selection-start="549" selection-end="549" vertical-scroll-proportion="0.45403376">
                   <folding />
                 </state>
               </provider>
@@ -74,7 +74,7 @@
           <file leaf-file-name="common.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/common.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="23" column="15" selection-start="624" selection-end="625" vertical-scroll-proportion="0.0">
+                <state line="29" column="1" selection-start="750" selection-end="751" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -92,16 +92,7 @@
           <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="220" column="41" selection-start="9920" selection-end="10315" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="blog.css" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/blog.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="100" column="1" selection-start="2431" selection-end="2431" vertical-scroll-proportion="0.0">
+                <state line="105" column="71" selection-start="3875" selection-end="3910" vertical-scroll-proportion="-4.419355">
                   <folding />
                 </state>
               </provider>
@@ -110,7 +101,7 @@
           <file leaf-file-name="blog.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/blog.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="56" column="2" selection-start="1463" selection-end="1463" vertical-scroll-proportion="0.0">
+                <state line="66" column="2" selection-start="1850" selection-end="1850" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -120,10 +111,28 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="blog.js" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="blog.js" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/blog.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="30" column="8" selection-start="808" selection-end="808" vertical-scroll-proportion="0.62393165">
+                <state line="19" column="27" selection-start="653" selection-end="653" vertical-scroll-proportion="0.37606838">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="blog.css" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/blog.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="97" column="2" selection-start="2384" selection-end="2384" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="avatar.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/avatar.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="181" column="48" selection-start="7040" selection-end="7124" vertical-scroll-proportion="-128.45161">
                   <folding />
                 </state>
               </provider>
@@ -144,19 +153,19 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/css/common.css" />
         <option value="$PROJECT_DIR$/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/css/home.css" />
-        <option value="$PROJECT_DIR$/avatar.html" />
         <option value="$PROJECT_DIR$/personalProfile.html" />
         <option value="$PROJECT_DIR$/underConstruction.html" />
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/colorbox.css" />
-        <option value="$PROJECT_DIR$/css/blog.css" />
         <option value="$PROJECT_DIR$/personalProfilePassword.html" />
-        <option value="$PROJECT_DIR$/blog.html" />
         <option value="$PROJECT_DIR$/css/editor.css" />
+        <option value="$PROJECT_DIR$/css/blog.css" />
+        <option value="$PROJECT_DIR$/avatar.html" />
+        <option value="$PROJECT_DIR$/css/common.css" />
+        <option value="$PROJECT_DIR$/blog.html" />
         <option value="$PROJECT_DIR$/blogDetail.html" />
         <option value="$PROJECT_DIR$/js/blog.js" />
         <option value="$PROJECT_DIR$/blogEdit.html" />
@@ -250,7 +259,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="786" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="786" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -328,11 +337,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/home.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="22" selection-start="1220" selection-end="1227" vertical-scroll-proportion="0.03760684" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="820" column="0" selection-start="25168" selection-end="25168" vertical-scroll-proportion="0.6857143" />
@@ -358,11 +362,28 @@
         <state line="140" column="50" selection-start="5029" selection-end="5029" vertical-scroll-proportion="0.52380955" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog.html">
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="209" column="0" selection-start="7976" selection-end="8021" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avatar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="181" column="48" selection-start="7040" selection-end="7124" vertical-scroll-proportion="-128.45161">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="71" selection-start="3875" selection-end="3910" vertical-scroll-proportion="-4.419355">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/blog.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="2" selection-start="2384" selection-end="2384" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/colorbox.css">
@@ -370,9 +391,9 @@
         <state line="30" column="106" selection-start="1812" selection-end="1812" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blogDetail.html">
+    <entry file="file://$PROJECT_DIR$/css/common.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="50" selection-start="1695" selection-end="1702" vertical-scroll-proportion="0.0">
+        <state line="29" column="1" selection-start="750" selection-end="751" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -382,36 +403,30 @@
         <state line="13" column="32" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/common.css">
+    <entry file="file://$PROJECT_DIR$/blog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="15" selection-start="624" selection-end="625" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="220" column="41" selection-start="9920" selection-end="10315" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/blog.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="1" selection-start="2431" selection-end="2431" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blogEdit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="40" selection-start="2881" selection-end="2881" vertical-scroll-proportion="1.4446529">
+        <state line="103" column="39" selection-start="3649" selection-end="3649" vertical-scroll-proportion="-4.419355">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/blog.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="8" selection-start="808" selection-end="808" vertical-scroll-proportion="0.62393165">
+        <state line="66" column="2" selection-start="1850" selection-end="1850" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogDetail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="45" selection-start="1237" selection-end="1237" vertical-scroll-proportion="-12.225806">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogEdit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="24" selection-start="549" selection-end="549" vertical-scroll-proportion="0.45403376">
           <folding />
         </state>
       </provider>

@@ -3,6 +3,9 @@
 <head>
   <meta charset='utf-8'/>
   <title>Edit Blog</title>
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/bootstrap-responsive.css" rel="stylesheet">
+  <link href="css/common.css" rel="stylesheet">
   <style>
     #blogEdit form {
       margin: 0;
@@ -10,28 +13,22 @@
     #blogEdit textarea {
       display: block;
     }
-    #blogEdit {
-      width: 900px;
+    header {
+      margin-bottom: 10px;
     }
-    #titleEdit input, #contentEdit {
+    input {
       font-family: 'simsun', '宋体', 'arial';
       letter-spacing: 1px;
-    }
-    #titleEdit input {
       color: #015496;
       font-size: 20px;
+      line-height: 30px;
       font-weight: bold;
-    }
-    #contentEdit, #contentEdit p {
-      color: #333;
-      font-size: 15px;
-      line-height: 24px;
-    }
-    h3 {
-      font-family: "microsoft yahei",'雅黑';
-      color: #5C5C5C;
-      font-size: 16px;
-      font-weight: normal;
+      text-align: center;
+      border: solid 1px #ccc;
+      -webkit-box-shadow: inset 0 2px 3px rgba(200,200,200,.3);
+      -moz-box-shadow: inset 0 2px 3px rgba(200,200,200,.3);
+      box-shadow: inset 0 2px 3px rgba(200,200,200,.3);
+      padding: 5px 10px;
     }
     #blogEdit div.button {
       margin-top: 10px;
@@ -42,19 +39,33 @@
     #blogEdit .btn {
       padding: 6px 15px;
     }
+    #blogEdit div.button span i {
+      margin-bottom: -1px;
+    }
+      /* fallback placeholder */
+    .placeholder {
+      color: #ccc;
+    }
+      /* webkit placeholder */
+    ::-webkit-input-placeholder {
+      color: #ccc;
+    }
+      /* moz placeholder */
+    :-moz-placeholder {
+      color: #ccc;
+    }
+
   </style>
 </head>
 <body>
 <section id="blogEdit">
   <!--标题统一样式-->
   <header id="titleEdit">
-    <h3>标题</h3>
-    <input id="titleText"  type="text" style="width:890px;height:30px;">
+    <input id="titleText" placeholder="此处输入标题" type="text" style="width:830px;height:30px;">
   </header>
   <div id="contentEdit">
-    <h3>内容</h3>
     <form method="post" action="#">
-      <textarea id="contentText"  name="contentText" style="width:898px;height:420px;visibility:hidden;">
+      <textarea id="contentText"  name="contentText" style="width:850px;height:415px;visibility:hidden;">
         <p>
           <img border="0" alt="" src="http://kindsoft.net/images/logo_180_30.gif" />
         </p>
@@ -78,10 +89,37 @@
   </div>
 </section>
 <script src="js/jquery.js"></script>
+<script src="js/modernizr.js"></script>
 <script charset="utf-8" src="editor/kindeditor.js"></script>
 <script charset="utf-8" src="editor/lang/zh_CN.js"></script>
 <script>
   $(document).ready(function() {
+    //兼容占位文本
+    if(!Modernizr.input.placeholder){
+
+      $('[placeholder]').focus(function() {
+        var input = $(this);
+        if (input.val() == input.attr('placeholder')) {
+          input.val('');
+          input.removeClass('placeholder');
+        }
+      }).blur(function() {
+            var input = $(this);
+            if (input.val() == '' || input.val() == input.attr('placeholder')) {
+              input.addClass('placeholder');
+              input.val(input.attr('placeholder'));
+            }
+          }).blur();
+      $('[placeholder]').parents('form').submit(function() {
+        $(this).find('[placeholder]').each(function() {
+          var input = $(this);
+          if (input.val() == input.attr('placeholder')) {
+            input.val('');
+          }
+        })
+      });
+
+    }
     var editor = KindEditor.create('textarea[name="contentText"]', {
       cssPath : 'css/editor.css',
       resizeType: 0,
@@ -90,23 +128,15 @@
 
     $('#saveButton .btn').live('click', function() {
       alert(editor.html());
-//      $.colorbox.close();
+      parent.$.fn.colorbox.close();
       return false;
     });
 
     $('#cancelButton .btn').live('click', function() {
-      $.colorbox.close();
+      parent.$.fn.colorbox.close();
       return false;
     });
   });
-//  var editor;
-//  KindEditor.ready(function(K) {
-//    editor = K.create('textarea[name="contentText"]', {
-//      cssPath : 'css/editor.css',
-//      resizeType: 0,
-//      allowFileManager : true
-//    });
-//  });
 </script>
 
 </body>
