@@ -342,6 +342,9 @@ div.button  a {
     width: 25px;
     text-align: center;
 }
+.fixMargin .symbol {
+    margin: 0 -7px;     /*debug*/
+}
 #scheduleEdit .task {
     width: 520px;
 }

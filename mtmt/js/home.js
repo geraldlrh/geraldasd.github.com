@@ -90,7 +90,9 @@ $(document).ready(function() {
 
     //添加
     $('#addButton').click(function(){
-        $('#addBody').val("").slideDown("fast");
+        $('#addBody select').val("");
+        $('#addBody textarea').val("");
+        $('#addBody').slideDown("fast");
         $('#addButton').fadeOut("fast");
         $('#returnButton').fadeOut("fast");
         return false;
