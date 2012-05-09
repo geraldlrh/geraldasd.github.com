@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Timespoon</title>
+  <meta name="description" content="">
+  <meta name="author" content="timespoon">
+
+  <!-- Le styles（后期优化成min） -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/bootstrap-responsive.css" rel="stylesheet">
+  <link href="css/common.css" rel="stylesheet">
+  <link href="css/home.css" rel="stylesheet">
+  <link href="css/blog.css" rel="stylesheet">
+  <link rel="stylesheet" media="all" href="css/stickyNote.css" />
+
+  <script src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/jquery.limit-1.2.source.js"></script>
+
+  <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+  <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <!-- Le fav and touch icons (补上小图标)-->
+  <link rel="shortcut icon" href="img/index/favicon.ico">
+</head>
+
+<body>
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container-fluid">
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+      <a class="brand" href="index.html"><img src="img/index/logo.png" alt="logo" title="logo" /></a>
+      <div class="nav-collapse">
+        <ul class="nav">
+          <li><a href="index.html">首页</a></li>
+          <li><a href="underConstruction.html">团队</a></li>
+          <li class="active"><a href="blog.html">知识</a></li>
+          <li><a href="underConstruction.html">其他</a></li>
+        </ul>
+        <ul class="nav pull-right" >
+          <li class="dropdown">
+            <a href="#"
+               class="dropdown-toggle"
+               data-toggle="dropdown">
+              <img src="img/avatar/default.jpg" alt="avatar" title="avatar">
+              北上的风
+              <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="personalProfile.html">修改资料</a></li>
+              <li><a href="personalProfilePassword.html">修改密码</a></li>
+              <li class="divider"></li>
+              <li><a href="login.html"><i class="icon-off"></i> 退出</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </div>
+</div><!--/.nav -->
+
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span3">
+      <div class="well sidebar-nav">
+        <ul class="nav nav-list">
+          <li id="blogLink">
+            <a href="blog.html">
+              <span class="sidebarIcon"></span>
+              <span class="sidebarText">笔记列表</span>
+            </a>
+          </li>
+          <li class="active" id="noteLink">
+            <a href="note.html">
+              <span class="sidebarIcon"></span>
+              <span class="sidebarText">便签列表</span>
+            </a>
+          </li>
+          <li id="attachmentLink">
+            <a href="#">
+              <span class="sidebarIcon"></span>
+              <span class="sidebarText">附件列表</span>
+            </a>
+          </li>
+        </ul>
+      </div><!--/.well -->
+    </div><!--/span-->
+    <div class="span9">
+      <div id="content" class="noteBody">
+        <div class="NotepadContainer">
+          <h3>你还可以输入 <span id="charsLeft"></span> 字</h3>
+          <a href="#" class="BtnWriteNote">新增便签</a>
+          <textarea id="notePad" class="Notepad" rows="5" cols="10"></textarea>
+          <script type="text/javascript">
+            //initialize the limit plugin to check n of chars in textarea
+            $('#notePad').limit('45', '#charsLeft');
+          </script>
+        </div>
+        <h2 class="Help"><span class="BigText">?</span> Tips</h2>
+        <div class="Intro">
+          <h1>- 用鼠标拖拽一个便签到最后一格，可以调整其位置</h1>
+          <h1>- 把不想要的便签拖到纸篓可以删除它</h1>
+          <a href="#" class="CloseWin">关闭 X</a>
+        </div>
+        <div class="ClearFloats"></div>
+        <div id="draggableContainer" class="Surface">
+          <div class="Warning" id="warning"></div>
+          <div id="basket" class="Basket"><img src="img/stickyNote/basketOptimized.gif" alt="Basket" /></div>
+          <div id="boardContainer" class="Board">
+            <div id="bottomSection" class="Bottom">
+              <div id="haveBreakfast" draggable="true" class="Note">吃早餐</div>
+              <div id="brushTeeth" draggable="true" class="Note">刷牙</div>
+              <div id="goToWork" draggable="true" class="Note">我是长篇测试啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦</div>
+              <div id="walkDog" draggable="true" class="Note">遛狗</div>
+              <div id="callMum" draggable="true" class="Note">打电话给老妈</div>
+              <div draggable="true" class=""></div>
+            </div>
+          </div>
+        </div>
+      </div><!--content-->
+    </div><!--/span9-->
+  </div><!--/row-->
+
+  <hr>
+  <footer>
+    <p>&copy; TIMESPOON 2012</p>
+  </footer>
+
+</div><!--/.fluid-container-->
+
+<!-- Le javascript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/stickyNote.js"></script>
+
+</body>
+</html>
