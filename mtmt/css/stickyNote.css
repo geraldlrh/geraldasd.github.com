@@ -87,12 +87,15 @@
   width:520px;
   padding:10px;
 }
-
+.Surface {
+    position: relative;
+}
 .Basket
 {
-  position: absolute;
-  bottom: 5px;
-  right: 10px;
+  position: fixed;
+  top: 350px;
+  margin-left: 260px;
+  left: 50%;
   width: 240px;
   height: 170px;
 }

@@ -21,89 +21,106 @@
     <favorites_list name="front" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="blog.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/blog.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="171" column="77" selection-start="6986" selection-end="6986" vertical-scroll-proportion="0.123364486">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="note.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/note.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="114" column="25" selection-start="4129" selection-end="4135" vertical-scroll-proportion="-14.193548">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stickyNote.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/stickyNote.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="3" selection-start="460" selection-end="461" vertical-scroll-proportion="-7.2">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="blog.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/blog.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="28" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="common.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/common.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="1" selection-start="750" selection-end="751" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="71" selection-start="504" selection-end="504" vertical-scroll-proportion="-0.7096774">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/home.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="353" column="90" selection-start="8289" selection-end="8289" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/home.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="40" selection-start="3288" selection-end="3288" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stickyNote.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/stickyNote.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="37" selection-start="2124" selection-end="2124" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="blog.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/blog.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="171" column="77" selection-start="6986" selection-end="6986" vertical-scroll-proportion="-0.7096774">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="note.html" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/note.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="112" column="51" selection-start="4049" selection-end="4056" vertical-scroll-proportion="0.2394958">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="stickyNote.css" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/stickyNote.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="39" column="3" selection-start="460" selection-end="461" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="blog.css" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/blog.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="2" column="28" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="common.css" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/common.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="29" column="1" selection-start="750" selection-end="751" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="13" column="71" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="home.css" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/home.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="353" column="90" selection-start="8289" selection-end="8289" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="home.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/js/home.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="94" column="40" selection-start="3288" selection-end="3288" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="stickyNote.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/js/stickyNote.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="58" column="37" selection-start="2124" selection-end="2124" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="stickyNote.css" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/css/stickyNote.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="98" column="24" selection-start="1055" selection-end="1055" vertical-scroll-proportion="0.625">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -130,8 +147,8 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/stickyNote.js" />
         <option value="$PROJECT_DIR$/note.html" />
-        <option value="$PROJECT_DIR$/css/stickyNote.css" />
         <option value="$PROJECT_DIR$/blog.html" />
+        <option value="$PROJECT_DIR$/css/stickyNote.css" />
       </list>
     </option>
   </component>
@@ -173,8 +190,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.General" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PublishConfig" serverName="spacebowling" serverId="e25e885e-7bd2-47c0-917d-22bce7f4b197" />
   <component name="RunManager">
@@ -222,7 +239,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1380" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1380" height="754" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -335,13 +352,6 @@
         <state line="66" column="2" selection-start="1850" selection-end="1850" vertical-scroll-proportion="0.5953177" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/stickyNote.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="3" selection-start="460" selection-end="461" vertical-scroll-proportion="-7.2">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/common.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="1" selection-start="750" selection-end="751" vertical-scroll-proportion="0.0" />
@@ -349,7 +359,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="71" selection-start="504" selection-end="504" vertical-scroll-proportion="-0.7096774">
+        <state line="13" column="71" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -369,21 +379,30 @@
         <state line="58" column="37" selection-start="2124" selection-end="2124" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/blog.css">
+    <entry file="file://$PROJECT_DIR$/blog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="28" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/note.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="25" selection-start="4129" selection-end="4135" vertical-scroll-proportion="-14.193548">
+        <state line="171" column="77" selection-start="6986" selection-end="6986" vertical-scroll-proportion="-0.7096774">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog.html">
+    <entry file="file://$PROJECT_DIR$/css/blog.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="171" column="77" selection-start="6986" selection-end="6986" vertical-scroll-proportion="0.123364486">
+        <state line="2" column="28" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="112" column="51" selection-start="4049" selection-end="4056" vertical-scroll-proportion="0.2394958">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/stickyNote.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="24" selection-start="1055" selection-end="1055" vertical-scroll-proportion="0.625">
           <folding />
         </state>
       </provider>
