@@ -1,5 +1,5 @@
 .noteBody {
-    font-family: Georgia, serif;
+    font-family: 'simsun', '宋体';
     font-size: 24px;
     line-height:130%;
     position:relative;
@@ -18,8 +18,9 @@
 
 .noteBody h3
 {
-  font-size:70%;
-  font-family:Verdana, Sans-Serif;
+  font-size: 13px;
+  font-family: 'microsoft yahei','雅黑';
+  color: #878787;
 }
 
 .noteBody p
@@ -27,19 +28,6 @@
   font-size:70%;
   max-width:70%;
   font-family:Verdana, Sans-Serif;
-}
-
-.noteBody a:link, a:active
-{
-  color:#330066;
-}
-
-.noteBody a:hover
-{
-  color:#FFF;
-  background-color:#CCCCFF;
-  border:2px outset #DDD;
-  text-decoration:none;
 }
 
 .noteBody ol
@@ -84,7 +72,7 @@
 
 .Board
 {
-  width:520px;
+  width:600px;
   padding:10px;
 }
 .Surface {
@@ -92,12 +80,14 @@
 }
 .Basket
 {
-  position: fixed;
-  top: 350px;
-  margin-left: 260px;
-  left: 50%;
-  width: 240px;
-  height: 170px;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 220px;
+  right: -10px;
+}
+.Basket img {
+    padding: 20px 0 0 30px;
 }
 
 .Warning
@@ -123,11 +113,11 @@
 }
 .Note
 {
-  width:140px;
-  height:120px;
+  width:170px;
+  height:145px;
   position:relative;
   background-color:#FFCC33;
-  padding: 10px 8px;
+  padding: 20px 8px 10px 8px;
   margin: 10px 5px;
   float:left;
   text-align:center;
@@ -136,40 +126,19 @@
   font-size: 15px;
   line-height: 24px;
   word-wrap: break-word;
-  /*Gradients */
-  /*Firefox 3.6 */
-  background-image:-moz-linear-gradient(#FFCC33, #FFFF99);
-  /* Safari 4+, Chrome 1+*/
-  background-image:-webkit-gradient(linear, 0%, 0%, 0%, 100%, from (#FFFF99), to(#FFCC33));
-  /* Safari 5.1+, Chrome 10+  */
-  background-image:-webkit-linear-gradient(#FFCC33, #FFFF99);
-  /* Opera 11.10+ */
-  background-image:-o-linear-gradient(#FFCC33, #FFFF99);
+    /*Gradients */
+    /*Firefox 3.6 */
+    background-image:-moz-linear-gradient(#ead588, #fff2b3 13%);
+    /* Safari 4+, Chrome 1+*/
+    background-image:-webkit-gradient(linear, 0%, 0%, 0%, 13%, from (#ead588), to(#fff2b3));
+    /* Safari 5.1+, Chrome 10+  */
+    background-image:-webkit-linear-gradient(#ead588, #fff2b3 13%);
+    /* Opera 11.10+ */
+    background-image:-o-linear-gradient(#ead588, #fff2b3 13%);
   /* boxshadow */
   -webkit-box-shadow: 10px 10px 4px rgba(255, 255, 255, 0.2), 0 0 40px rgba(255, 255, 255, 0.2) inset;
   -moz-box-shadow: 10px 10px 4px rgba(255, 255, 255, 0.2), 0 0 40px rgba(255, 255, 255, 0.2) inset;
   box-shadow: 10px 10px 4px rgba(255, 255, 255, 0.2), 0 0 40px rgba(255, 255, 255, 0.2) inset;
-}
-/*note curl */
-.Note:after
-{
-  content:"";
-  z-index:1;
-  position:absolute;
-  display:block;
-  left: 44px;
-  bottom: 0px;
-  width: 110px;
-  height: 5%;
-  background-color:rgba(255, 255, 255, 0.2);
-  -webkit-box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);
-  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);
-  -webkit-transform: skew(40deg) rotate(-3deg);
-  -moz-transform: skew(40deg) rotate(-3deg);
-  -ms-transform: skew(40deg) rotate(-3deg);
-  -o-transform: skew(40deg) rotate(-3deg);
-  transform: skew(40deg) rotate(-3deg);
 }
 
 .Note:before
@@ -177,30 +146,27 @@
   content:"";
   position:absolute;
   display:block;
-  top:0;
   right:0;
-  border-width:0 10px 25px 0;
+  bottom:0;
+  border-width:0 0 20px 20px;
   border-style:solid;
   border-top-color:#F7F7F7;
   border-right-color:#F7F7F7;
-  border-left-color:#FFCC33;
-  border-bottom-color:#FFFF99;
+  border-left-color: #f5f595;
+  border-bottom-color: rgb(252, 252, 252);
   /*box shadow in the curl*/
   -moz-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+  box-shadow: -10px -10px 30px rgba(0, 0, 0, 0.2);
 }
 
 .NotepadContainer
 {
-  width:300px; 
+  width:200px;
   float:right;
-  padding:5px;  
-}
-
-.NotepadContainer h3
-{
-  background:url(../img/stickyNote/pencil.png) 100% 0px no-repeat;
+  padding:5px;
+  position: relative;
+  margin-top: 10px;
 }
 
 .NotepadContainer p
@@ -213,21 +179,10 @@
   width:110px;
   height:100px;
   position:relative;
-  background-color:#FFCC33;
+  background-color:#fff2b3;
   padding-left:2px;
   padding-right:2px;
   padding-top:0px;
-  margin:5px;
-  font-family:'Comic Sans MS', cursive;
-  /*Gradients */
-  /*Firefox 3.6 */
-  background-image:-moz-linear-gradient(#FFCC33, #FFFF99);
-  /* Safari 4+, Chrome 1+*/
-  background-image:-webkit-gradient(linear, 0%, 0%, 0%, 100%, from (#FFFF99), to(#FFCC33));
-  /* Safari 5.1+, Chrome 10+  */
-  background-image:-webkit-linear-gradient(#FFCC33, #FFFF99);
-  /* Opera 11.10+ */
-  background-image:-o-linear-gradient(#FFCC33, #FFFF99);
   /* boxshadow */
   -webkit-box-shadow: 10px 10px 4px rgba(255, 255, 255, 0.2), 0 0 40px rgba(255, 255, 255, 0.2) inset;
   -moz-box-shadow: 10px 10px 4px rgba(255, 255, 255, 0.2), 0 0 40px rgba(255, 255, 255, 0.2) inset;
@@ -236,66 +191,51 @@
 
 .BtnWriteNote
 {
-  font-size:60%;
-  line-height:100%;
-  font-weight:bold;
-  margin:5px;
-  padding:5px;
-  float:left;
+  margin:0 3px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+#content {
+    overflow: visible;
 }
 .Help
 {
-  cursor:pointer;
-  margin:10px;
-  padding:0px;
-  line-height:100%;
+    cursor:pointer;
+    margin: 15px 0 0 -6px;
+    text-indent: -9999px;
+    background: url('../img/stickyNote/tips.png') no-repeat;
 }
 
 .Intro
 {
   float:left;
-  max-width:40%;
-  border:2px solid #DDD;
+  max-width:35%;
+  border:1px solid #C4DEFF;
   padding:5px;
-  /* boxshadow */
-  -webkit-box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0.2) inset;
-  -moz-box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0.2) inset;
-  box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0.2) inset;
-  /* Firefox 3.6 and earlier */   
-  border-radius:15px;
- -moz-border-radius:25px;  
+  margin: 5px;
+  background-color: #DBECFF;
+  /* Firefox 3.6 and earlier */
+  border-radius:8px;
+ -moz-border-radius:8px;
 }
-
-.Intro h1
-{
-  font-size:70%;
-}
-
-.Intro h2
-{
-  font-size:65%;
-}
-
-.Intro p
-{
-  font-size:60%;
-}
-
 .Intro  a
 {
   display:block;
-  width:150px;
-  text-align:center;
+  width:20px;
+  text-indent: -9999px;
   float:right;
+  background: url('../img/stickyNote/close.png') no-repeat;
+  line-height: 100%;
 }
-
-.BigText
-{
-  font-family:Impact, Charcoal, sans-serif;
-  color:orange;
-  font-weight:bold;
-  font-size:200%;
-  padding-top:50px;
+.Intro ul {
+    padding: 10px 5px 0 20px;
+    list-style-type: circle;
 }
-
-
+.Intro li {
+    margin: 0 0 10px 0;
+    font-family: 'microsoft yahei','雅黑';
+    font-size: 14px;
+    color: #575757;
+    line-height: 130%;
+}

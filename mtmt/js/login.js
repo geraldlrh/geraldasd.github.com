@@ -3,7 +3,6 @@
  * User: liu
  * Date: 12-3-26
  * Time: 下午10:16
- * To change this template use File | Settings | File Templates.
  */
 $(document).ready(function() {
     $("#input-login-account input").focus(function () {

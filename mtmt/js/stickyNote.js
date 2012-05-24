@@ -13,6 +13,7 @@ $(document).ready(function () {
     //show window help when help is clicked
     $('.Help').click(function () {
         $('.Intro').fadeIn('fast');
+        $('#warning').html('').hide();
     }); //end of click to open help window
 
     //Close the help div when clicking the close button
@@ -53,13 +54,13 @@ $(document).ready(function () {
 
     $('#basket img').bind('drop', function (event) {
         //Create the key value pairs to associate note id with message
-        var draggedNote = {};
-        draggedNote['haveBreakfast'] = '吃早餐了吗亲?';
-        draggedNote['brushTeeth'] = '记得刷牙哦!';
-        draggedNote['goToWork'] = ':)';
-        draggedNote['walkDog'] = "人类最好的朋友？";
-        draggedNote['callMum'] = '如果我是你，我不会扔掉它';
-        draggedNote['newNote' + noteId] = '新增的便签';
+//        var draggedNote = {};
+//        draggedNote['haveBreakfast'] = '吃早餐了吗亲?';
+//        draggedNote['brushTeeth'] = '记得刷牙哦!';
+//        draggedNote['goToWork'] = ':)';
+//        draggedNote['walkDog'] = "人类最好的朋友？";
+//        draggedNote['callMum'] = '如果我是你，我不会扔掉它';
+//        draggedNote['newNote' + noteId] = '新增的便签';
         //retrieve id of note
         var myNote = event.originalEvent.dataTransfer.getData('text');
         //remove the note from the page as it has been dropped in the basket

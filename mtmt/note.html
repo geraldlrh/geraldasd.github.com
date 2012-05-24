@@ -95,24 +95,26 @@
     <div class="span9">
       <div id="content" class="noteBody">
         <div class="NotepadContainer">
-          <h3>你还可以输入 <span id="charsLeft"></span> 字</h3>
-          <a href="#" class="BtnWriteNote">新增便签</a>
+          <h3>还可以输入<span id="charsLeft"></span>字</h3>
+          <a href="#" class="BtnWriteNote btn btn-primary">添加便签</a>
           <textarea id="notePad" class="Notepad" rows="5" cols="10"></textarea>
           <script type="text/javascript">
             //initialize the limit plugin to check n of chars in textarea
-            $('#notePad').limit('45', '#charsLeft');
+            $('#notePad').limit('60', '#charsLeft');
           </script>
         </div>
-        <h2 class="Help"><span class="BigText">?</span> Tips</h2>
+        <h2 class="Help">tips</h2>
         <div class="Intro">
-          <h1>- 用鼠标拖拽一个便签到最后一格，可以调整其位置</h1>
-          <h1>- 把不想要的便签拖到纸篓可以删除它</h1>
-          <a href="#" class="CloseWin">关闭 X</a>
+          <ul>
+            <li>用鼠标拖拽一个便签到最后一格，可以调整其位置</li>
+            <li>把不想要的便签拖到纸篓可以删除它</li>
+          </ul>
+          <a href="#" class="CloseWin">X</a>
         </div>
         <div class="ClearFloats"></div>
         <div id="draggableContainer" class="Surface">
           <div class="Warning" id="warning"></div>
-          <div id="basket" class="Basket"><img src="img/stickyNote/basketOptimized.gif" alt="Basket" /></div>
+          <div id="basket" class="Basket"><img src="img/stickyNote/basket.png" alt="Basket" /></div>
           <div id="boardContainer" class="Board">
             <div id="bottomSection" class="Bottom">
               <div id="haveBreakfast" draggable="true" class="Note">吃早餐</div>
@@ -124,6 +126,7 @@
             </div>
           </div>
         </div>
+        <div class="ClearFloats"></div>
       </div><!--content-->
     </div><!--/span9-->
   </div><!--/row-->
