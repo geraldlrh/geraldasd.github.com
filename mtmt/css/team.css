@@ -1,0 +1,109 @@
+#teamListLink span.sidebarIcon {
+    background: url(../img/team/teamList.png) no-repeat 3px -3px;
+}
+.well {
+    margin-bottom: 10px;
+}
+.search .searchText {
+    width: 135px;
+    margin-right: -22px;
+    padding: 2px 4px;
+    padding-right: 20px;
+}
+span.icon {
+    display: inline-block;
+    overflow: hidden;
+    background: url(../img/team/teamSprite.png) no-repeat;
+}
+#addTeam a {
+    border-top: 1px solid #E0E0E0;
+    border-bottom: none;
+}
+#addTeam span.sidebarIcon {
+    background: url(../img/team/addTeam.png) no-repeat 3px -6px;
+}
+#teamListContent {
+    margin: 0 10px;
+}
+#addTeam {
+    padding-top: 10px;
+}
+#teamListContent>ul {
+    padding: 0 2px;
+}
+#teamListContent>ul>li img {
+    width: 18px;
+    height: 18px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+}
+#teamListContent>ul>li a {
+    font-size: 13px;
+    display: inline-block;
+    padding: 3px 4px;
+    margin: 2px 0;
+    width: 150px;
+    text-decoration: none;
+    vertical-align: middle;
+    border-radius: 4px;
+}
+#teamListContent .active a {
+    color: #005580;
+    background-color: #CEE6FE;
+}
+
+#content>h1 {
+    margin: 15px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 3px 0;
+}
+#content>h1, #allTeam, #allTeam h2 {
+    letter-spacing: 3px;
+    font-family: "microsoft yahei",'雅黑';
+    font-size: 17px;
+    color: #424242;
+}
+#allTeam span {
+    font-size: 14px;
+}
+#allTeam>.singleTeam {
+    width: 300px;
+    height: 142px;
+    background-color: #F5F5F5;
+    border: 1px solid #ccc;
+    float: left;
+    margin: 15px 25px;
+    position: relative;
+}
+#allTeam>.singleTeam:nth-child(odd) {
+    margin-left: 80px;
+}
+.singleTeam .wrap {
+    margin-left: 140px;
+}
+.singleTeam img.logo {
+    position: absolute;
+    width: 120px;
+    padding:10px;
+}
+.singleTeam .wrap>span {
+    display: inline-block;
+    width: 53px;
+    padding: 0 10px;
+    text-align: center;
+}
+.singleTeam span.task {
+    border-right: 1px solid #ccc;
+}
+.singleTeam span div.number {
+    padding-bottom: 3px;
+}
+.singleTeam h2 {
+    margin: 5px 15px;
+    margin-bottom: 45px;
+}
+.singleTeam a {
+    text-decoration: none;
+}
+

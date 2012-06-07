@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Timespoon</title>
+  <meta name="description" content="">
+  <meta name="author" content="timespoon">
+
+  <!-- Le styles（后期优化成min） -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/bootstrap-responsive.css" rel="stylesheet">
+  <link href="css/common.css" rel="stylesheet">
+  <link href="css/home.css" rel="stylesheet">
+  <link href="css/team.css" rel="stylesheet">
+  <link href="css/teamDetail.css" rel="stylesheet">
+
+  <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+  <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <!-- Le fav and touch icons (补上小图标)-->
+  <link rel="shortcut icon" href="img/index/favicon.ico">
+</head>
+
+<body>
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container-fluid">
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+      <a class="brand" href="index.html"><img src="img/index/logo.png" alt="logo" title="logo" /></a>
+      <div class="nav-collapse">
+        <ul class="nav">
+          <li><a href="index.html">首页</a></li>
+          <li class="active"><a href="team.html">团队</a></li>
+          <li><a href="blog.html">知识</a></li>
+          <li><a href="underConstruction.html">其他</a></li>
+        </ul>
+        <ul class="nav pull-right" >
+          <li class="dropdown">
+            <a href="#"
+               class="dropdown-toggle"
+               data-toggle="dropdown">
+              <img src="img/avatar/default.jpg" alt="avatar" title="avatar">
+              北上的风
+              <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="personalProfile.html">修改资料</a></li>
+              <li><a href="personalProfilePassword.html">修改密码</a></li>
+              <li class="divider"></li>
+              <li><a href="login.html"><i class="icon-off"></i> 退出</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </div>
+</div><!--/.nav -->
+
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span3">
+      <div class="well sidebar-nav">
+        <ul class="nav nav-list">
+          <li class="active" id="teamListLink">
+            <a href="team.html">
+              <span class="sidebarIcon"></span>
+              <span class="sidebarText">团队列表</span>
+            </a>
+          </li>
+        </ul>
+      </div><!--/.well -->
+      <div id="teamListContent">
+        <!--form submit-->
+        <div class="search">
+          <input name="q" placeholder="请输入组名" class="searchText">
+          <a href="#"><i class="icon-search"></i></a>
+        </div>
+
+        <ul>
+          <li>
+            <a href="teamDetail.html">
+              <span class="teamIcon"><img src="img/team/team1.png"></span>
+              <span class="teamName">最耀B地球总部</span>
+            </a>
+          </li>
+          <li>
+            <a href="teamDetail.html">
+              <span class="teamIcon"><img src="img/team/team2.png"></span>
+              <span class="teamName">信宜玩乐</span>
+            </a>
+          </li>
+          <li>
+            <a href="teamDetail.html">
+              <span class="teamIcon"><img src="img/team/team3.png"></span>
+              <span class="teamName">电影电视-潜水娱乐圈</span>
+            </a>
+          </li>
+          <li class="active">
+            <a href="teamDetail.html">
+              <span class="teamIcon"><img src="img/team/team4.png"></span>
+              <span class="teamName">我家沙发给你睡</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="sidebar-nav" id="addTeam">
+        <ul class="nav nav-list">
+          <li>
+            <a href="#">
+              <span class="sidebarIcon"></span>
+              <span class="sidebarText">新建团队</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div><!--/span-->
+    <div class="span9">
+      <div id="content">
+        <div id="teamInfo">
+          <span id="teamLogo">
+            <img src="img/team/teamLogo.png">
+          </span>
+          <span id="teamName">
+            <a id="quitButton" class="btn" href="#">退出团队</a>
+            <h1>我家沙发给你睡</h1>
+            <div class="line">
+              <span class="dl">创建者</span>
+              <span class="dd">ABC</span>
+            </div>
+            <div class="line">
+              <span class="dl">加入链接</span>
+              <span class="dd"></span>
+            </div>
+            <div class="line">
+              <span class="dl">创建时间</span>
+              <span class="dd">2012-01-01</span>
+            </div>
+            <div class="line">
+              <span class="dl">团队描述</span>
+              <span class="dd">劈里啪啦劈里啪啦这里写团队描述然后字数限制别写太多!</span>
+            </div>
+          </span>
+          <span id="teamNotice">
+            <div class="wrap">
+              <span class="task">
+                <div class="number">
+                  <a href="#">0</a>
+                </div>
+                <div>任务</div>
+              </span>
+              <span class="member">
+                <div class="number">
+                  <a href="#">1</a>
+                </div>
+                <div>成员</div>
+              </span>
+            </div>
+            <h2>团队公告</h2>
+            <p>在群内希望大家能踊跃讨论、给力建议。在群内发布广告、互粉等信息一律删除。</p>
+          </span>
+        </div>
+        <div class="tabbable">
+          <ul class="nav nav-pills">
+            <li class="active">
+              <a id="task" href="#tab1" data-toggle="tab">
+                <span class="icon"></span>
+                <span class="text">任务</span>
+              </a>
+            </li>
+            <li class="">
+              <a id="member" href="#tab2" data-toggle="tab">
+                <span class="icon"></span>
+                <span class="text">成员</span>
+              </a>
+            </li>
+            <li class="">
+              <a id="discuss" href="#tab3" data-toggle="tab">
+                <span class="icon"></span>
+                <span class="text">讨论</span>
+              </a>
+            </li>
+          </ul>
+          <div class="tab-content">
+            <!--<div class="tab-pane active" id="tab1">-->
+              <!--<div id="taskButton">-->
+                <!--<a id="addTaskButton" href="#">-->
+                  <!--<span class="icon"></span>-->
+                  <!--<span class="">新建任务</span>-->
+                <!--</a>-->
+                <!--<a id="checkTaskButton" href="#">-->
+                  <!--<span class="icon"></span>-->
+                  <!--<span class="">过往任务</span>-->
+                <!--</a>-->
+              <!--</div>-->
+              <!--<div id="addTaskArea" class="MYHIDEN" style="">-->
+                <!--<textarea></textarea>-->
+                <!--&lt;!&ndash;<span class="dropdown">&ndash;&gt;-->
+                  <!--<a class="selectExecutorButton dropdown-toggle" href="#" data-toggle="dropdown">-->
+                    <!--<span class="icon"></span>-->
+                    <!--<span class="">选择执行者</span>-->
+                  <!--</a>-->
+                  <!--&lt;!&ndash;<div class="dropdown-menu">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<div class="search">&ndash;&gt;-->
+                      <!--&lt;!&ndash;<input name="q" placeholder="请输入组名" class="searchText">&ndash;&gt;-->
+                      <!--&lt;!&ndash;<a href="#"><i class="icon-search"></i></a>&ndash;&gt;-->
+                    <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<div style="height: 200px;width: 300px;"></div>&ndash;&gt;-->
+                  <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                <!--&lt;!&ndash;</span>&ndash;&gt;-->
+
+                <!--<a class="addAttachmentButton" href="#">-->
+                  <!--<span class="icon"></span>-->
+                  <!--<span class="">添加附件</span>-->
+                <!--</a>-->
+                <!--<a class="btn" id="addTask">新建任务</a>-->
+              <!--</div>-->
+              <!--<div id="taskList">-->
+                <!--<div class="taskContent">-->
+                  <!--<a href="#">-->
+                    <!--<span class="taskManager"><img src="img/team/user1.png"></span>-->
+                    <!--<span class="taskContentText">用户A</span>-->
+                  <!--</a>-->
+                  <!--<span>-->
+                    <!--<div class="taskContentText">-->
+                      <!--任务内容是做网站-->
+                    <!--</div>-->
+                    <!--<div class="attachment">-->
+                      <!--<span class="attachmentThumbnail">-->
+                        <!--<a href="#.pdf">-->
+                          <!--<span class="icon"></span>-->
+                        <!--</a>-->
+                      <!--</span>-->
+                      <!--<span class="attachmentText">-->
+                        <!--<div>1.rar</div>-->
+                        <!--<div><a href="#.pdf">下载</a></div>-->
+                      <!--</span>-->
+                    <!--</div>-->
+                  <!--</span>-->
+                <!--</div>-->
+                <!--<div class="taskExecutor">-->
+                  <!--<a href="#">-->
+                    <!--<span><img src="img/team/user2.png"></span>-->
+                    <!--<span>任务执行者1</span>-->
+                  <!--</a>-->
+                  <!--<a href="#">-->
+                    <!--<span><img src="img/team/user3.png"></span>-->
+                    <!--<span>ABCD</span>-->
+                  <!--</a>-->
+                <!--</div>-->
+                <!--<div class="comment">-->
+                  <!--<span class="cusp"></span>-->
+                  <!--<ul>-->
+                    <!--<li>-->
+                      <!--<a href="#">-->
+                        <!--<span><img src="img/team/user3.png"></span>-->
+                        <!--<span>ABCD</span>-->
+                      <!--</a>-->
+                      <!--<span>-->
+                        <!--<div>-->
+                          <!--做啥网站？-->
+                        <!--</div>-->
+                        <!--<div class="time">-->
+                          <!--2012-01-01 00:00-->
+                        <!--</div>-->
+                      <!--</span>-->
+                    <!--</li>-->
+                    <!--<li>-->
+                      <!--<a href="#">-->
+                        <!--<span><img src="img/team/user1.png"></span>-->
+                        <!--<span>用户A</span>-->
+                      <!--</a>-->
+                      <!--<span>-->
+                        <!--<div>-->
+                          <!--TimeSpoon-->
+                        <!--</div>-->
+                        <!--<div class="time">-->
+                          <!--2012-01-01 00:00-->
+                        <!--</div>-->
+                      <!--</span>-->
+                    <!--</li>-->
+                  <!--</ul>-->
+                  <!--<div id="addComment">-->
+                    <!--<textarea placeholder="我也说两句..."></textarea>-->
+                    <!--<a class="addAttachmentButton" href="#">-->
+                      <!--<span class="icon"></span>-->
+                      <!--<span class="">添加附件</span>-->
+                    <!--</a>-->
+                    <!--<a class="btn">发表评论</a>-->
+                  <!--</div>-->
+                <!--</div>-->
+              <!--</div>-->
+            <!--</div>-->
+            <div class="tab-pane" id="tab2">
+              <p>Howdy, I'm in Section 2.</p>
+            </div>
+            <div class="tab-pane" id="tab3">
+              <p>What up girl, this is Section 3.</p>
+            </div>
+          </div>
+        </div>
+      </div><!--content-->
+    </div><!--/span9-->
+  </div><!--/row-->
+
+  <hr>
+  <footer>
+    <p>&copy; TIMESPOON 2012</p>
+  </footer>
+
+</div><!--/.fluid-container-->
+
+<!-- Le javascript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/team.js"></script>
+
+</body>
+</html>

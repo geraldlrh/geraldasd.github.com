@@ -1,0 +1,244 @@
+#teamInfo {
+    margin: 20px 15px;
+    position: relative;
+    height: 200px;
+    line-height: 150%;
+}
+#teamInfo>span {
+    display: inline-block;
+    position: absolute;
+}
+#teamLogo {
+    height: 200px;
+    width: 140px;
+}
+#teamName {
+    left: 160px;
+    margin-right: 15px;
+    width: 330px;
+    height: 200px;
+}
+#teamNotice {
+    right: 5px;
+    background-color: #EEF7FF;
+    border-radius: 6px;
+    width: 280px;
+    height: 200px;
+}
+#teamLogo img {
+    width: 140px;
+    border: 1px solid #EEF7FF;
+}
+.tabbable {
+    margin: 0 15px;
+}
+.tabbable>ul {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 5px;
+}
+.tabbable>ul li {
+    display: inline-block;
+    padding: 0 5px;
+}
+#teamName #quitButton {
+    float: right;
+}
+#teamName h1 {
+    font-size: 18px;
+    line-height: 150%;
+    color: 	#0088CC;
+    margin-bottom: 15px;
+}
+.line {
+    padding: 5px 0;
+}
+.line>span {
+    display: inline-block;
+    vertical-align: top;
+}
+.line span.dl {
+    width: 70px;
+}
+.line span.dd {
+    width: 220px;
+    color: 	#0088CC;
+}
+#teamNotice .wrap {
+    margin: 10px 0;
+}
+#teamNotice .wrap>span {
+    font-size: 14px;
+    display: inline-block;
+    width: 58px;
+    padding: 0 10px 0 0;
+    text-align: center;
+}
+#teamNotice span.task {
+    border-right: 1px solid #ccc;
+}
+#teamNotice span div.number {
+    padding-bottom: 3px;
+}
+#teamNotice h2, #teamNotice p {
+    margin: 15px;
+}
+#teamNotice h2 {
+    font-size: 17px;
+    line-height: 150%;
+}
+.nav-pills > li > a, .nav-pills > li > a:hover {
+    color: #828282;
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: 3px;
+}
+.nav-pills > .active > a, .nav-pills > .active > a:hover {
+    background-color: #CEE6FE;
+    color: #015597;
+}
+a>span {
+    vertical-align: top;
+    display: inline-block;
+}
+.nav-pills a>.text {
+    padding: 3px 0;
+}
+#task .icon {
+    background-position: 0 -274px; width: 20px; height: 26px;
+}
+.active #task .icon {
+    background-position: 0 -350px; width: 20px; height: 26px;
+}
+#member .icon {
+    background-position: 0 -866px; width: 38px; height: 26px;
+}
+.active #member .icon {
+    background-position: 0 -942px; width: 38px; height: 26px;
+}
+#discuss .icon {
+    background-position: 0 -568px; width: 25px; height: 25px;
+}
+.active #discuss .icon {
+    background-position: 0 -643px; width: 25px; height: 25px;
+}
+div#taskButton {
+    float: right;
+}
+#addTaskButton, #checkTaskButton {
+    font-size: 14px;
+    letter-spacing: 2px;
+    width: 100px;
+}
+#addTaskButton, #addTaskButton:hover {
+    margin-right: 20px;
+    color: 	#015597;
+    text-decoration: none;
+}
+#addTaskButton .icon {
+    background: url('../img/team/addTaskButton.png') no-repeat 0 -2px;
+    width: 19px;
+    height: 23px;
+}
+#checkTaskButton, #checkTaskButton:hover {
+    color: 	#828282;
+    text-decoration: none;
+}
+#checkTaskButton .icon {
+    background-position: 0 0; width: 19px; height: 19px;
+}
+#addTaskArea {
+    clear: both;
+    padding: 20px 0;
+    margin-bottom: 30px;
+}
+#addTaskArea textarea {
+    width: 785px;
+    height: 100px;
+}
+.selectExecutorButton, .addAttachmentButton {
+    color: #828282;
+}
+.selectExecutorButton:hover, .addAttachmentButton:hover {
+    color: #333;
+    text-decoration: none;
+ }
+#addTaskArea .selectExecutorButton {
+    margin-right: 20px;
+}
+.selectExecutorButton .icon {
+    background: url('../img/team/selectExecutorButton.png') no-repeat;
+    width: 28px;
+    height: 20px;
+}
+.addAttachmentButton .icon {
+    background-position: 0 -792px; width: 12px; height: 24px;
+}
+#addTaskArea #addTask {
+    float: right;
+}
+#taskList {
+    clear: both;
+    padding: 10px 0;
+}
+.taskContent {
+    border-bottom: 1px solid #CCCCCC;
+}
+.taskContent .taskContentText {
+    font-size: 15px;
+}
+.comment {
+    margin-top: 20px;
+    margin-left: 50px;
+    border-top: 1px solid #CCCCCC;
+    position: relative;
+}
+.cusp {
+    position:absolute;
+    display:block;
+    height:0px;
+}
+.comment .cusp {
+    left:10px;
+    top:-6px;
+    border-top:0px;
+    border-bottom:6px solid #fff;
+    border-right:6px solid transparent;
+    border-left:6px solid transparent;
+}
+.comment ul {
+    padding: 0;
+    margin: 10px 0;
+}
+.comment ul>li {
+    border-bottom: 1px dashed #E0E0E0;
+    padding: 5px 5px 5px 0;
+}
+.comment ul>li:last-child {
+    border-bottom: none;
+}
+.comment ul>li .time {
+    font-size: 12px;
+    color: #828282;
+}
+#addComment textarea {
+    width: 735px;
+    height: 70px;
+}
+#addComment .btn {
+    float: right;
+}
+#taskList img {
+    height: 30px;
+    width: 30px;
+}
+#taskList .taskManager img {
+    height: 50px;
+    width: 50px;
+}
+
+
+
+
+
+

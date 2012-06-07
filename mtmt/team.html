@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Timespoon</title>
+  <meta name="description" content="">
+  <meta name="author" content="timespoon">
+
+  <!-- Le styles（后期优化成min） -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/bootstrap-responsive.css" rel="stylesheet">
+  <link href="css/common.css" rel="stylesheet">
+  <link href="css/home.css" rel="stylesheet">
+  <link href="css/team.css" rel="stylesheet">
+
+  <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+  <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <!-- Le fav and touch icons (补上小图标)-->
+  <link rel="shortcut icon" href="img/index/favicon.ico">
+</head>
+
+<body>
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container-fluid">
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+      <a class="brand" href="index.html"><img src="img/index/logo.png" alt="logo" title="logo" /></a>
+      <div class="nav-collapse">
+        <ul class="nav">
+          <li><a href="index.html">首页</a></li>
+          <li class="active"><a href="team.html">团队</a></li>
+          <li><a href="blog.html">知识</a></li>
+          <li><a href="underConstruction.html">其他</a></li>
+        </ul>
+        <ul class="nav pull-right" >
+          <li class="dropdown">
+            <a href="#"
+               class="dropdown-toggle"
+               data-toggle="dropdown">
+              <img src="img/avatar/default.jpg" alt="avatar" title="avatar">
+              北上的风
+              <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="personalProfile.html">修改资料</a></li>
+              <li><a href="personalProfilePassword.html">修改密码</a></li>
+              <li class="divider"></li>
+              <li><a href="login.html"><i class="icon-off"></i> 退出</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </div>
+</div><!--/.nav -->
+
+<div class="container-fluid">
+<div class="row-fluid">
+<div class="span3">
+  <div class="well sidebar-nav">
+    <ul class="nav nav-list">
+      <li class="active" id="teamListLink">
+        <a href="team.html">
+          <span class="sidebarIcon"></span>
+          <span class="sidebarText">团队列表</span>
+        </a>
+      </li>
+    </ul>
+  </div><!--/.well -->
+  <div id="teamListContent">
+    <!--form submit-->
+    <div class="search">
+      <input name="q" placeholder="请输入组名" class="searchText">
+      <a href="#"><i class="icon-search"></i></a>
+    </div>
+
+    <ul>
+      <li>
+        <a href="teamDetail.html">
+          <span class="teamIcon"><img src="img/team/team1.png"></span>
+          <span class="teamName">最耀B地球总部</span>
+        </a>
+      </li>
+      <li>
+        <a href="teamDetail.html">
+          <span class="teamIcon"><img src="img/team/team2.png"></span>
+          <span class="teamName">信宜玩乐</span>
+        </a>
+      </li>
+      <li>
+        <a href="teamDetail.html">
+          <span class="teamIcon"><img src="img/team/team3.png"></span>
+          <span class="teamName">电影电视-潜水娱乐圈</span>
+        </a>
+      </li>
+      <li>
+        <a href="teamDetail.html">
+          <span class="teamIcon"><img src="img/team/team4.png"></span>
+          <span class="teamName">我家沙发给你睡</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="sidebar-nav" id="addTeam">
+    <ul class="nav nav-list">
+      <li>
+        <a href="#">
+          <span class="sidebarIcon"></span>
+          <span class="sidebarText">新建团队</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div><!--/span-->
+<div class="span9">
+  <div id="content">
+    <h1>我加入的团队（4）</h1>
+    <div id="allTeam">
+      <div class="singleTeam">
+        <a href="teamDetail.html">
+          <img class="logo" src="img/team/teamLogo.png">
+        </a>
+        <div class="wrap">
+          <h2><a href="teamDetail.html">团队A名字</a></h2>
+          <span class="task">
+            <div class="number">
+              <a href="#">0</a>
+            </div>
+            <div>任务</div>
+          </span>
+          <span class="member">
+            <div class="number">
+              <a href="#">1</a>
+            </div>
+            <div>成员</div>
+          </span>
+        </div>
+      </div>
+      <div class="singleTeam">
+        <a href="teamDetail.html">
+          <img class="logo" src="img/team/teamLogo.png">
+        </a>
+        <div class="wrap">
+          <h2><a href="teamDetail.html">团队B名字</a></h2>
+          <span class="task">
+            <div class="number">
+              <a href="#">0</a>
+            </div>
+            <div>任务</div>
+          </span>
+          <span class="member">
+            <div class="number">
+              <a href="#">1</a>
+            </div>
+            <div>成员</div>
+          </span>
+        </div>
+      </div>
+      <div class="singleTeam">
+        <a href="teamDetail.html">
+          <img class="logo" src="img/team/teamLogo.png">
+        </a>
+        <div class="wrap">
+          <h2><a href="teamDetail.html">团队一名字</a></h2>
+          <span class="task">
+            <div class="number">
+              <a href="#">0</a>
+            </div>
+            <div>任务</div>
+          </span>
+          <span class="member">
+            <div class="number">
+              <a href="#">1</a>
+            </div>
+            <div>成员</div>
+          </span>
+        </div>
+      </div>
+      <div class="singleTeam">
+        <a href="teamDetail.html">
+          <img class="logo" src="img/team/teamLogo.png">
+        </a>
+        <div class="wrap">
+          <h2><a href="teamDetail.html">团队二名字</a></h2>
+          <span class="task">
+            <div class="number">
+              <a href="#">0</a>
+            </div>
+            <div>任务</div>
+          </span>
+          <span class="member">
+            <div class="number">
+              <a href="#">1</a>
+            </div>
+            <div>成员</div>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div><!--content-->
+</div><!--/span9-->
+</div><!--/row-->
+
+<hr>
+<footer>
+  <p>&copy; TIMESPOON 2012</p>
+</footer>
+
+</div><!--/.fluid-container-->
+
+<!-- Le javascript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/team.js"></script>
+
+</body>
+</html>
