@@ -28,3 +28,16 @@ a:visited, a:active {
 div.button span i {
     vertical-align: baseline;
 }
+#content {
+    min-height: 580px;
+    background: white;
+    border-left: 4px solid #C7C7C7;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+a:focus {
+    outline: none;
+}
+.MYHIDEN {
+    display: none;
+}

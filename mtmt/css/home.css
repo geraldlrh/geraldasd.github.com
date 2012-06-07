@@ -69,12 +69,6 @@ body {
     margin-bottom: -20px;
     border: 0;
 }
-#content {
-    border-left: 4px solid #C7C7C7;
-    background-color: #ffffff;
-    margin-bottom: 20px;
-    padding-top: 10px;
-}
 .row-fluid {
     background-color: #F5F5F5;
     box-shadow: 2px 0px 20px rgba(238,243,250, 0.3), -2px 0px 20px rgba(238,243,250, 0.3);
@@ -189,9 +183,10 @@ span.icon {
     float:right;
 }
 #search #searchText {
-    width: 180px;
+    width: 160px;
     margin-right: -28px;
     padding: 2px 4px;
+    padding-right: 24px;
 }
 #schedule #search span.icon {
     height: 19px;

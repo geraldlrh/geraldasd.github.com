@@ -21,31 +21,13 @@
     <favorites_list name="front" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5704057">
+    <splitter split-orientation="horizontal" split-proportion="0.5075577">
       <split-first>
         <leaf>
-          <file leaf-file-name="blog.html" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/blog.html">
+          <file leaf-file-name="team.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/team.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="171" column="77" selection-start="6986" selection-end="6986" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="note.html" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/note.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="128" column="39" selection-start="4876" selection-end="4876" vertical-scroll-proportion="1.0412757">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="stickyNote.css" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/stickyNote.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="31" column="0" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0">
+                <state line="134" column="46" selection-start="4223" selection-end="4223" vertical-scroll-proportion="2.1612904">
                   <folding />
                 </state>
               </provider>
@@ -54,7 +36,7 @@
           <file leaf-file-name="blog.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/blog.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="2" column="28" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0">
+                <state line="3" column="0" selection-start="35" selection-end="194" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -63,7 +45,7 @@
           <file leaf-file-name="common.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/common.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="29" column="1" selection-start="750" selection-end="751" vertical-scroll-proportion="0.0">
+                <state line="41" column="18" selection-start="955" selection-end="955" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -72,7 +54,7 @@
           <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="13" column="71" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0">
+                <state line="296" column="61" selection-start="13929" selection-end="13929" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -81,7 +63,16 @@
           <file leaf-file-name="home.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/home.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="353" column="90" selection-start="8289" selection-end="8289" vertical-scroll-proportion="0.0">
+                <state line="116" column="10" selection-start="3155" selection-end="3161" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="teamDetail.html" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/teamDetail.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="192" column="63" selection-start="6471" selection-end="6471" vertical-scroll-proportion="0.24667932">
                   <folding />
                 </state>
               </provider>
@@ -91,19 +82,37 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="stickyNote.css" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/css/stickyNote.css">
+          <file leaf-file-name="team.css" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/team.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="141" column="1" selection-start="2581" selection-end="2581" vertical-scroll-proportion="-3.125">
+                <state line="78" column="20" selection-start="1587" selection-end="1602" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="stickyNote.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/stickyNote.js">
+          <file leaf-file-name="teamDetail.css" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/css/teamDetail.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="61" column="50" selection-start="2271" selection-end="2271" vertical-scroll-proportion="0.0">
+                <state line="238" column="10" selection-start="4549" selection-end="4549" vertical-scroll-proportion="0.54404145">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="team.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/js/team.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="3" column="32" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="home.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/js/home.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="90" column="4" selection-start="3127" selection-end="3528" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -124,22 +133,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/css/editor.css" />
-        <option value="$PROJECT_DIR$/avatar.html" />
-        <option value="$PROJECT_DIR$/css/common.css" />
-        <option value="$PROJECT_DIR$/blogDetail.html" />
-        <option value="$PROJECT_DIR$/js/blog.js" />
-        <option value="$PROJECT_DIR$/blogEdit.html" />
-        <option value="$PROJECT_DIR$/underConstruction.html" />
-        <option value="$PROJECT_DIR$/css/blog.css" />
-        <option value="$PROJECT_DIR$/css/home.css" />
+        <option value="$PROJECT_DIR$/js/stickyNote.js" />
+        <option value="$PROJECT_DIR$/css/stickyNote.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/blog.html" />
-        <option value="$PROJECT_DIR$/js/home.js" />
-        <option value="$PROJECT_DIR$/js/login.js" />
-        <option value="$PROJECT_DIR$/js/stickyNote.js" />
+        <option value="$PROJECT_DIR$/avatar.html" />
         <option value="$PROJECT_DIR$/note.html" />
-        <option value="$PROJECT_DIR$/css/stickyNote.css" />
+        <option value="$PROJECT_DIR$/personalProfile.html" />
+        <option value="$PROJECT_DIR$/personalProfilePassword.html" />
+        <option value="$PROJECT_DIR$/css/blog.css" />
+        <option value="$PROJECT_DIR$/css/home.css" />
+        <option value="$PROJECT_DIR$/css/team.css" />
+        <option value="$PROJECT_DIR$/team.html" />
+        <option value="$PROJECT_DIR$/css/common.css" />
+        <option value="$PROJECT_DIR$/js/team.js" />
+        <option value="$PROJECT_DIR$/css/teamDetail.css" />
+        <option value="$PROJECT_DIR$/teamDetail.html" />
       </list>
     </option>
   </component>
@@ -147,7 +156,7 @@
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1296" />
-    <option name="height" value="786" />
+    <option name="height" value="780" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -181,8 +190,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="preferences.general" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PublishConfig" serverName="spacebowling" serverId="e25e885e-7bd2-47c0-917d-22bce7f4b197">
     <servers>
@@ -236,14 +245,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="786" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="780" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1662689" sideWeight="0.50801283" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1660016" sideWeight="0.48076922" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1646778" sideWeight="0.48076922" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1662689" sideWeight="0.5016026" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -314,92 +323,92 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/underConstruction.html">
+    <entry file="file://$PROJECT_DIR$/blogDetail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="25" selection-start="2333" selection-end="2333" vertical-scroll-proportion="2.3032491" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.6137185" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/avatar.html">
+    <entry file="file://$PROJECT_DIR$/blogEdit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="67" selection-start="623" selection-end="623" vertical-scroll-proportion="0.58201057" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="38" selection-start="1634" selection-end="1634" vertical-scroll-proportion="-3.368231" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/personalProfilePassword.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="68" selection-start="494" selection-end="494" vertical-scroll-proportion="0.5044092" />
+        <state line="41" column="68" selection-start="1562" selection-end="1562" vertical-scroll-proportion="-3.3844798" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/personalProfile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="61" selection-start="623" selection-end="623" vertical-scroll-proportion="0.58201057" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="57" selection-start="3891" selection-end="3946" vertical-scroll-proportion="4.304348" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/personalProfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="54" selection-start="2552" selection-end="2552" vertical-scroll-proportion="1.3311037" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="62" selection-start="119" selection-end="119" vertical-scroll-proportion="0.036789298" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/blog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="32" selection-start="1841" selection-end="1841" vertical-scroll-proportion="2.354515" />
+        <state line="42" column="38" selection-start="1614" selection-end="1614" vertical-scroll-proportion="0.27797833" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="171" column="77" selection-start="6986" selection-end="6986" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="79" column="66" selection-start="2781" selection-end="2781" vertical-scroll-proportion="0.20637898" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/blog.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="28" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0" />
+        <state line="3" column="0" selection-start="35" selection-end="194" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/common.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="1" selection-start="750" selection-end="751" vertical-scroll-proportion="0.0" />
+        <state line="41" column="18" selection-start="955" selection-end="955" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="71" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0">
+        <state line="296" column="61" selection-start="13929" selection-end="13929" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/home.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="353" column="90" selection-start="8289" selection-end="8289" vertical-scroll-proportion="0.0" />
+        <state line="116" column="10" selection-start="3155" selection-end="3161" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/stickyNote.js">
+    <entry file="file://$PROJECT_DIR$/css/team.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="50" selection-start="2271" selection-end="2271" vertical-scroll-proportion="0.0">
+        <state line="78" column="20" selection-start="1587" selection-end="1602" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/note.html">
+    <entry file="file://$PROJECT_DIR$/js/team.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="39" selection-start="4876" selection-end="4876" vertical-scroll-proportion="1.0412757">
+        <state line="3" column="32" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="90" column="4" selection-start="3127" selection-end="3528" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/teamDetail.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="238" column="10" selection-start="4549" selection-end="4549" vertical-scroll-proportion="0.54404145">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/stickyNote.css">
+    <entry file="file://$PROJECT_DIR$/team.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="141" column="1" selection-start="2581" selection-end="2581" vertical-scroll-proportion="-3.125">
+        <state line="134" column="46" selection-start="4223" selection-end="4223" vertical-scroll-proportion="2.1612904">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teamDetail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="192" column="63" selection-start="6471" selection-end="6471" vertical-scroll-proportion="0.24667932">
           <folding />
         </state>
       </provider>
