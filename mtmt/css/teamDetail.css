@@ -153,10 +153,11 @@ div#taskButton {
     margin-bottom: 30px;
 }
 #addTaskArea textarea {
-    width: 785px;
+    width: 783px;
     height: 100px;
 }
 .selectExecutorButton, .addAttachmentButton {
+    font-family: 'Microsoft YaHei','雅黑';
     color: #828282;
 }
 .selectExecutorButton:hover, .addAttachmentButton:hover {
@@ -180,9 +181,14 @@ div#taskButton {
 #taskList {
     clear: both;
     padding: 10px 0;
+    font-family: SimSun, '宋体', arial;
+}
+#taskList a {
+    text-decoration: none;
 }
 .taskContent {
     border-bottom: 1px solid #CCCCCC;
+    padding-bottom: 5px;
 }
 .taskContent .taskContentText {
     font-size: 15px;
@@ -193,18 +199,27 @@ div#taskButton {
     border-top: 1px solid #CCCCCC;
     position: relative;
 }
-.cusp {
+.cusp1, .cusp2 {
     position:absolute;
     display:block;
     height:0px;
 }
-.comment .cusp {
+.comment .cusp1 {
     left:10px;
     top:-6px;
     border-top:0px;
-    border-bottom:6px solid #fff;
+    border-bottom:6px solid #ccc;
+    -moz-border-bottom-colors: transparent;
     border-right:6px solid transparent;
     border-left:6px solid transparent;
+}
+.comment .cusp2 {
+    left: -5px;
+    top: 1px;
+    border-top:0px;
+    border-bottom:5px solid #fff;
+    border-right:5px solid transparent;
+    border-left:5px solid transparent;
 }
 .comment ul {
     padding: 0;
@@ -222,7 +237,7 @@ div#taskButton {
     color: #828282;
 }
 #addComment textarea {
-    width: 735px;
+    width: 733px;
     height: 70px;
 }
 #addComment .btn {
@@ -236,9 +251,112 @@ div#taskButton {
     height: 50px;
     width: 50px;
 }
-
-
-
-
-
-
+.taskContent>span {
+    display: inline-block;
+}
+a.sprite2 {
+    display: inline-block;
+    overflow: hidden;
+    background: url(../img/team/sprite2.png) no-repeat;
+    width: 25px;
+    height: 25px;
+}
+a[href*=".doc"], a[href*=".docx"]{
+    background-position: 0px 0px;
+}
+a[href*=".htm"], a[href*=".html"] {
+    background-position: 0px -35px;
+}
+a[href*=".pdf"] {
+    background-position: 0px -70px;
+}
+a[href*=".ppt"], a[href*=".pptx"] {
+    background-position: 0px -105px;
+}
+a[href*=".rar"], a[href*=".zip"] {
+    background-position: 0px -140px;
+}
+a[href*=".txt"] {
+    background-position: 0px -174px;
+}
+a[href*=".xls"] {
+    background-position: 0px -209px;
+}
+.attachment > span {
+    display: inline-block;
+}
+.taskExecutor {
+    margin-top: 5px;
+}
+#taskList .comment>ul>li>span {
+    display: inline-block;
+}
+#addTaskArea {
+    position: relative;
+}
+.teamMember {
+    position: absolute;
+    top: 170px;
+    left: 10px;
+    z-index: 999;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    width: 450px;
+    background-color: rgba(255,255,255,0.7);
+}
+.teamMember .search {
+    margin: 5px;
+    margin-right: 10px;
+    float: right;
+}
+.teamMember .cusp1 {
+    left:35px;
+    top:-9px;
+    border-top:0px;
+    border-bottom:9px solid #ccc;
+    -moz-border-bottom-colors: transparent;
+    border-right:9px solid transparent;
+    border-left:9px solid transparent;
+}
+.teamMember .cusp2 {
+    left: -8px;
+    top: 1px;
+    border-top:0px;
+    border-bottom:8px solid #fff;
+    border-right:8px solid transparent;
+    border-left:8px solid transparent;
+}
+#allMember {
+    padding: 5px;
+    clear: both;
+    min-height: 250px;
+}
+#allMember>label, #allMember label input {
+    display: inline-block;
+}
+#allMember>label {
+    width: 32%;
+}
+#allMember>label>input, #allMember>label>span {
+    vertical-align: top;
+}
+#allMember .avatar>img {
+    width: 50px;
+    height: 50px;
+}
+#allMember {
+    position: relative;
+}
+#allMember #button {
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+}
+#allMember .btn {
+    width: 52px;
+    text-align: center;
+}
+.tab-content {
+    overflow: hidden;
+}
