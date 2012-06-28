@@ -21,13 +21,13 @@
     <favorites_list name="front" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5075577">
+    <splitter split-orientation="horizontal" split-proportion="0.51233095">
       <split-first>
         <leaf>
           <file leaf-file-name="team.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/team.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="134" column="46" selection-start="4223" selection-end="4223" vertical-scroll-proportion="2.1612904">
+                <state line="134" column="31" selection-start="4223" selection-end="4223" vertical-scroll-proportion="-0.0">
                   <folding />
                 </state>
               </provider>
@@ -45,7 +45,7 @@
           <file leaf-file-name="common.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/common.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="41" column="18" selection-start="955" selection-end="955" vertical-scroll-proportion="0.0">
+                <state line="18" column="28" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -54,7 +54,7 @@
           <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="296" column="61" selection-start="13929" selection-end="13929" vertical-scroll-proportion="0.0">
+                <state line="296" column="0" selection-start="13929" selection-end="13929" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -69,10 +69,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="teamDetail.html" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="teamDetail.html" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/teamDetail.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="192" column="63" selection-start="6471" selection-end="6471" vertical-scroll-proportion="0.24667932">
+                <state line="207" column="45" selection-start="7053" selection-end="7059" vertical-scroll-proportion="0.31902984">
                   <folding />
                 </state>
               </provider>
@@ -85,16 +85,16 @@
           <file leaf-file-name="team.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/team.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="78" column="20" selection-start="1587" selection-end="1602" vertical-scroll-proportion="0.0">
+                <state line="12" column="0" selection-start="250" selection-end="371" vertical-scroll-proportion="-9.12">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="teamDetail.css" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="teamDetail.css" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/teamDetail.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="238" column="10" selection-start="4549" selection-end="4549" vertical-scroll-proportion="0.54404145">
+                <state line="360" column="20" selection-start="7090" selection-end="7090" vertical-scroll-proportion="0.8342059">
                   <folding />
                 </state>
               </provider>
@@ -103,7 +103,7 @@
           <file leaf-file-name="team.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/team.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="3" column="32" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0">
+                <state line="13" column="59" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -147,8 +147,8 @@
         <option value="$PROJECT_DIR$/team.html" />
         <option value="$PROJECT_DIR$/css/common.css" />
         <option value="$PROJECT_DIR$/js/team.js" />
-        <option value="$PROJECT_DIR$/css/teamDetail.css" />
         <option value="$PROJECT_DIR$/teamDetail.html" />
+        <option value="$PROJECT_DIR$/css/teamDetail.css" />
       </list>
     </option>
   </component>
@@ -156,7 +156,7 @@
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1296" />
-    <option name="height" value="780" />
+    <option name="height" value="786" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -188,18 +188,12 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="preferences.general" />
+    <property name="options.lastSelected" value="preferences.sourceCode.General" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
-  <component name="PublishConfig" serverName="spacebowling" serverId="e25e885e-7bd2-47c0-917d-22bce7f4b197">
-    <servers>
-      <server id="2179a012-f8f2-443d-b350-a81d801e6c24">
-        <serverdata />
-      </server>
-    </servers>
-  </component>
+  <component name="PublishConfig" serverName="spacebowling" serverId="e25e885e-7bd2-47c0-917d-22bce7f4b197" />
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugSession" factoryName="Remote">
       <JSRemoteDebuggerConfigurationSettings>
@@ -245,7 +239,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="780" extended-state="0" />
+    <frame x="-8" y="-8" width="1296" height="786" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -323,11 +317,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/blogDetail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.6137185" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blogEdit.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -353,21 +342,19 @@
         <state line="79" column="66" selection-start="2781" selection-end="2781" vertical-scroll-proportion="0.20637898" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/team.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="134" column="31" selection-start="4223" selection-end="4223" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/blog.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="0" selection-start="35" selection-end="194" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/common.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="18" selection-start="955" selection-end="955" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="296" column="61" selection-start="13929" selection-end="13929" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="296" column="0" selection-start="13929" selection-end="13929" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/home.css">
@@ -375,40 +362,49 @@
         <state line="116" column="10" selection-start="3155" selection-end="3161" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/team.css">
+    <entry file="file://$PROJECT_DIR$/js/home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="20" selection-start="1587" selection-end="1602" vertical-scroll-proportion="0.0">
+        <state line="90" column="4" selection-start="3127" selection-end="3528" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="28" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webide.jar!/resources/html5-schema/web-forms.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="521" column="19" selection-start="11343" selection-end="11343" vertical-scroll-proportion="0.33275563">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/team.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="32" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="4" selection-start="3127" selection-end="3528" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/teamDetail.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="238" column="10" selection-start="4549" selection-end="4549" vertical-scroll-proportion="0.54404145">
+        <state line="13" column="59" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/team.html">
+    <entry file="file://$PROJECT_DIR$/css/team.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="134" column="46" selection-start="4223" selection-end="4223" vertical-scroll-proportion="2.1612904">
+        <state line="12" column="0" selection-start="250" selection-end="371" vertical-scroll-proportion="-9.12">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/teamDetail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="192" column="63" selection-start="6471" selection-end="6471" vertical-scroll-proportion="0.24667932">
+        <state line="207" column="45" selection-start="7053" selection-end="7059" vertical-scroll-proportion="0.31902984">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/teamDetail.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="360" column="20" selection-start="7090" selection-end="7090" vertical-scroll-proportion="0.8342059">
           <folding />
         </state>
       </provider>

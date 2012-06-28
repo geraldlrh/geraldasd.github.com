@@ -23,7 +23,7 @@ a:visited, a:active {
     outline: none;
 }
 .btn {
-    font-family: 'Microsoft YaHei',SimSun,'黑体',arial,sans-serif;
+    font-family: 'Microsoft YaHei','雅黑','黑体',arial,sans-serif;
 }
 div.button span i {
     vertical-align: baseline;
