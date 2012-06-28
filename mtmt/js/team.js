@@ -6,16 +6,6 @@ $(document).ready(function() {
         return false;
     });
 
-    //选择执行者
-    $('.selectExecutorButton').live('click', function() {
-        $('#addTaskArea .teamMember').toggle("fast");
-        return false;
-    });
-    $('#allMember #button .btn').live('click', function() {
-        $('#addTaskArea .teamMember').hide("fast");
-        return false;
-    });
-
     //添加任务后返回
     $('#addTaskArea #addTask').live('click', function() {
         $('#addTaskArea').slideUp("fast");

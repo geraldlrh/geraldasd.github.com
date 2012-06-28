@@ -160,7 +160,7 @@
                   <a href="#">1</a>
                 </div>
                 <div>成员</div>
-               </span>
+              </span>
             </div>
             <h2>团队公告</h2>
             <p>在群内希望大家能踊跃讨论、给力建议。在群内发布广告、互粉等信息一律删除。</p>
@@ -188,137 +188,115 @@
             </li>
           </ul>
           <div class="tab-content">
-            <div class="tab-pane active" id="tab1">
-              <div id="taskButton">
-                <a id="addTaskButton" href="#">
-                  <span class="icon"></span>
-                  <span class="">新建任务</span>
-                </a>
-                <a id="checkTaskButton" href="#">
-                  <span class="icon"></span>
-                  <span class="">过往任务</span>
-                </a>
-              </div>
-              <div id="addTaskArea" class="MYHIDE" style="">
-                <textarea></textarea>
-                <a class="selectExecutorButton" href="#">
-                  <span class="icon"></span>
-                  <span class="">选择执行者</span>
-                </a>
-                <div class="teamMember MYHIDE">
-                  <span class="cusp1"><span class="cusp2"></span></span>
-                  <div class="search">
-                    <input name="q" placeholder="请输入组员名称" class="searchText">
-                    <a href="#"><i class="icon-search"></i></a>
-                  </div>
-                  <form id="allMember">
-                    <label>
-                      <input type="checkbox" name="" />
-                      <span class="avatar"><img src="img/team/user3.png"></span>
-                      <span class="username">用户A</span>
-                    </label>
-                    <label>
-                      <input type="checkbox" name="" />
-                      <span class="avatar"><img src="img/team/user2.png"></span>
-                      <span class="username">用户B</span>
-                    </label>
-                    <label>
-                      <input type="checkbox" name="" />
-                      <span class="avatar"><img src="img/team/user1.png"></span>
-                      <span class="username">用户C</span>
-                    </label>
-                    <div id="button">
-                      <a class="btn" href="#">
-                        确 定
-                      </a>
-                      <a class="btn" href="#">
-                        取 消
-                      </a>
-                    </div>
-                  </form>
-                </div>
+            <!--<div class="tab-pane active" id="tab1">-->
+              <!--<div id="taskButton">-->
+                <!--<a id="addTaskButton" href="#">-->
+                  <!--<span class="icon"></span>-->
+                  <!--<span class="">新建任务</span>-->
+                <!--</a>-->
+                <!--<a id="checkTaskButton" href="#">-->
+                  <!--<span class="icon"></span>-->
+                  <!--<span class="">过往任务</span>-->
+                <!--</a>-->
+              <!--</div>-->
+              <!--<div id="addTaskArea" class="MYHIDEN" style="">-->
+                <!--<textarea></textarea>-->
+                <!--&lt;!&ndash;<span class="dropdown">&ndash;&gt;-->
+                  <!--<a class="selectExecutorButton dropdown-toggle" href="#" data-toggle="dropdown">-->
+                    <!--<span class="icon"></span>-->
+                    <!--<span class="">选择执行者</span>-->
+                  <!--</a>-->
+                  <!--&lt;!&ndash;<div class="dropdown-menu">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<div class="search">&ndash;&gt;-->
+                      <!--&lt;!&ndash;<input name="q" placeholder="请输入组名" class="searchText">&ndash;&gt;-->
+                      <!--&lt;!&ndash;<a href="#"><i class="icon-search"></i></a>&ndash;&gt;-->
+                    <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<div style="height: 200px;width: 300px;"></div>&ndash;&gt;-->
+                  <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                <!--&lt;!&ndash;</span>&ndash;&gt;-->
 
-                <a class="addAttachmentButton" href="#">
-                  <span class="icon"></span>
-                  <span class="">添加附件</span>
-                </a>
-                <a class="btn" id="addTask">新建任务</a>
-              </div>
-              <div id="taskList">
-                <div class="taskContent">
-                  <a href="#">
-                    <span class="taskManager"><img src="img/team/user1.png"></span>
-                    <span class="taskContentText">用户A</span>
-                  </a>
-                  <span>
-                    <div class="taskContentText">
-                      任务内容是做网站
-                    </div>
-                    <div class="attachment">
-                      <span class="attachmentThumbnail">
-                        <a class="sprite2" href=".rar">
-                        </a>
-                      </span>
-                      <span class="attachmentText">
-                        <div>1.rar</div>
-                        <div><a href=".rar">下载</a></div>
-                      </span>
-                    </div>
-                  </span>
-                </div>
-                <div class="taskExecutor">
-                  <a href="#">
-                    <span><img src="img/team/user2.png"></span>
-                    <span>任务执行者1</span>
-                  </a>
-                  <a href="#">
-                    <span><img src="img/team/user3.png"></span>
-                    <span>ABCD</span>
-                  </a>
-                </div>
-                <div class="comment">
-                  <span class="cusp1"><span class="cusp2"></span></span>
-                  <ul>
-                    <li>
-                      <a href="#">
-                        <span><img src="img/team/user3.png"></span>
-                        <span>ABCD</span>
-                      </a>
-                      <span>
-                        <div>
-                          做啥网站？
-                        </div>
-                        <div class="time">
-                          2012-01-01 00:00
-                        </div>
-                      </span>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <span><img src="img/team/user1.png"></span>
-                        <span>用户A</span>
-                      </a>
-                      <span>
-                        <div>
-                          TimeSpoon
-                        </div>
-                        <div class="time">
-                          2012-01-01 00:00
-                        </div>
-                      </span>
-                    </li>
-                  </ul>
-                  <div id="addComment">
-                    <textarea placeholder="我也说两句..."></textarea>
-                    <a class="addAttachmentButton" href="#">
-                      <span class="icon"></span>
-                      <span class="">添加附件</span>
-                    </a>
-                    <a class="btn">发表评论</a>
-                  </div>
-                </div>
-              </div>
-            </div>
+                <!--<a class="addAttachmentButton" href="#">-->
+                  <!--<span class="icon"></span>-->
+                  <!--<span class="">添加附件</span>-->
+                <!--</a>-->
+                <!--<a class="btn" id="addTask">新建任务</a>-->
+              <!--</div>-->
+              <!--<div id="taskList">-->
+                <!--<div class="taskContent">-->
+                  <!--<a href="#">-->
+                    <!--<span class="taskManager"><img src="img/team/user1.png"></span>-->
+                    <!--<span class="taskContentText">用户A</span>-->
+                  <!--</a>-->
+                  <!--<span>-->
+                    <!--<div class="taskContentText">-->
+                      <!--任务内容是做网站-->
+                    <!--</div>-->
+                    <!--<div class="attachment">-->
+                      <!--<span class="attachmentThumbnail">-->
+                        <!--<a href="#.pdf">-->
+                          <!--<span class="icon"></span>-->
+                        <!--</a>-->
+                      <!--</span>-->
+                      <!--<span class="attachmentText">-->
+                        <!--<div>1.rar</div>-->
+                        <!--<div><a href="#.pdf">下载</a></div>-->
+                      <!--</span>-->
+                    <!--</div>-->
+                  <!--</span>-->
+                <!--</div>-->
+                <!--<div class="taskExecutor">-->
+                  <!--<a href="#">-->
+                    <!--<span><img src="img/team/user2.png"></span>-->
+                    <!--<span>任务执行者1</span>-->
+                  <!--</a>-->
+                  <!--<a href="#">-->
+                    <!--<span><img src="img/team/user3.png"></span>-->
+                    <!--<span>ABCD</span>-->
+                  <!--</a>-->
+                <!--</div>-->
+                <!--<div class="comment">-->
+                  <!--<span class="cusp"></span>-->
+                  <!--<ul>-->
+                    <!--<li>-->
+                      <!--<a href="#">-->
+                        <!--<span><img src="img/team/user3.png"></span>-->
+                        <!--<span>ABCD</span>-->
+                      <!--</a>-->
+                      <!--<span>-->
+                        <!--<div>-->
+                          <!--做啥网站？-->
+                        <!--</div>-->
+                        <!--<div class="time">-->
+                          <!--2012-01-01 00:00-->
+                        <!--</div>-->
+                      <!--</span>-->
+                    <!--</li>-->
+                    <!--<li>-->
+                      <!--<a href="#">-->
+                        <!--<span><img src="img/team/user1.png"></span>-->
+                        <!--<span>用户A</span>-->
+                      <!--</a>-->
+                      <!--<span>-->
+                        <!--<div>-->
+                          <!--TimeSpoon-->
+                        <!--</div>-->
+                        <!--<div class="time">-->
+                          <!--2012-01-01 00:00-->
+                        <!--</div>-->
+                      <!--</span>-->
+                    <!--</li>-->
+                  <!--</ul>-->
+                  <!--<div id="addComment">-->
+                    <!--<textarea placeholder="我也说两句..."></textarea>-->
+                    <!--<a class="addAttachmentButton" href="#">-->
+                      <!--<span class="icon"></span>-->
+                      <!--<span class="">添加附件</span>-->
+                    <!--</a>-->
+                    <!--<a class="btn">发表评论</a>-->
+                  <!--</div>-->
+                <!--</div>-->
+              <!--</div>-->
+            <!--</div>-->
             <div class="tab-pane" id="tab2">
               <p>Howdy, I'm in Section 2.</p>
             </div>
